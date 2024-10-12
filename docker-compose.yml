@@ -13,7 +13,6 @@ services:
     env_file:
       - ./holaglobal/.env  # Backend klasöründeki .env dosyasını belirtin
 
-
   frontend:
     build:
       context: ./holaglobal-frontend  # Frontend klasörü yolu
