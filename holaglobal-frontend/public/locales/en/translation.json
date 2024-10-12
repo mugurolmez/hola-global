@@ -1,0 +1,560 @@
+{"adapterLocale":"en",
+  "formTitleInsurance": "Insurance Application Form",
+  "formTitleQuick": "Quick Application Form",
+  "name": "Name",
+  "lastName": "Last Name",
+  "dateOfBirth": "Date of Birth",
+  "passportNumber": "Passport Number",
+  "typeOfResidencePermit": "Type of Residence Permit",
+  "phoneNumber": "Phone Number",
+  "nationality": "Nationality",
+  "submitButton": "Submit Form",
+  "sendingButton": "Sending...",
+  "validation": {
+    "nameRequired": "Name is required",
+    "lastNameRequired": "Last name is required",
+    "dateOfBirthRequired": "Date of Birth is required",
+    "dateOfBirthInvalid": "Invalid date format",
+    "passportNumberRequired": "Passport Number is required",
+    "typeOfResidencePermitRequired": "Type of Residence Permit is required",
+    "phoneNumberRequired": "Phone Number is required",
+    "phoneNumberFormat": "Phone number should start with 05xx",
+    "nationalityRequired": "Nationality is required"
+  },
+  "mainHomeTextItems": {
+    "title": "H O L A !",
+    "welcomeMessage": "Welcome to the Residence Permit Center!",
+    "description": "HOLA! is a leading platform that facilitates and accelerates the residence permit acquisition process, providing reliable solutions for foreigners living in Turkey. We are here to make the residence permit acquisition process faster and easier for you.",
+    "servicesTitle": "Our Services:",
+    "serviceDetails": "Residence Permit Applications: We manage all the steps required to start or continue the residence permit acquisition process in Turkey for you. Our professional consultants ensure that your application is completed smoothly. Consultancy Services: You can contact us for information about the residence permit process or special consultancy services. Our expert team is here to offer you the most suitable solution.",
+    "updatesInfo": "Latest Updates: Follow us to keep up with the latest updates and changes in the residence permit process. Visit our site regularly to stay informed about new regulations, procedures, and news.",
+    "whyHolaTitle": "Why Hola Global?",
+    "whyHolaDetails": "Our Experienced Team: At HOLA!, we manage the residence permit process in the best way with our expert consultants. Fast and Reliable Service: We process and finalize your applications quickly, saving you time. Customer Satisfaction: With our customer-oriented approach, we offer solutions tailored to your needs and keep your satisfaction at the highest level.",
+    "finalMessage": "If you need a strong partner by your side in the residence permit acquisition process in Turkey, do not hesitate to contact us. HOLA! is here to ensure that your residence permits are completed in the smoothest and most efficient way!"
+  },
+  "mainNavbarItems": {
+    "homeLabel": "Home",
+    "homeText": "Home",
+    "residencePermitsLabel": "Residence Permits",
+    "residencePermitsText": "Residence Permits",
+    "healthInsuranceLabel": "Foreign Health Insurance",
+    "healthInsuranceText": "Foreign Health Insurance",
+    "contactLabel": "Contact",
+    "contactText": "Contact"
+  },
+  "mainTabItems": {
+    "familyResidencePermit": "Family Residence Permit",
+    "educationResidencePermit": "Education Residence Permit",
+    "touristResidencePermit": "Tourist Residence Permit",
+    "humanitarianResidencePermit": "Humanitarian Residence Permit",
+    "shortTermResidencePermit": "Short Term Residence Permit",
+    "longTermResidencePermit": "Long Term Residence Permit"
+  },
+  "familyResidencePermit": {
+    "title": "Family Residence Permit",
+    "info1": "Foreign nationals who come to the Republic of Turkey and obtain a residence permit can also obtain a residence permit for their first-degree relatives.",
+    "whoCanApply": "Who can apply for a family residence permit?",
+    "spouse": "To the foreign spouse.",
+    "minorChild": "To the minor foreign child of either the spouse or oneself.",
+    "dependentChild": "To the dependent child of either the spouse or oneself.",
+    "info2": "*A student residence permit does not grant the right to a residence permit for any of the student's relatives.",
+    "multipleSpouses": "If a foreign national applying for a family residence permit has multiple spouses, they can apply for a residence permit only for one of their spouses.",
+    "educationRestriction": "With a family residence permit, a foreign child without a student residence permit can receive education only in primary and secondary education institutions until the age of eighteen.",
+    "shortTermPermit": "Under what circumstances can foreign nationals with a family residence permit apply for a short-term residence permit?",
+    "divorce": "In the case of a foreign national married to a Turkish citizen going through divorce proceedings and having resided in Turkey with a family residence permit for at least three years. (If they prove their victimization due to domestic violence with a court decision, the requirement of having resided in Turkey with a family residence permit for three years is waived).",
+    "supporterDeath": "In case of the supporter's death, foreign nationals with a family residence permit attached to them.",
+    "threeYearsStay": "Foreign nationals who have stayed in our country with a family residence permit for at least three years and have reached the age of eighteen.",
+    "requirements": "What are the requirements for a family residence permit?",
+    "healthInsurance": "Valid health insurance covering all family members of the supporter, an income amounting to at least one third of the minimum wage determined by the Republic of Turkey Constitution for each family member, a criminal record indicating that they have not committed a crime against family order within five years, and having resided in Turkey for at least one year with their address registered in the address registration system.",
+    "purposeStatement": "Foreign nationals applying for a family residence permit must declare the purpose of their stay in the Republic of Turkey, demonstrate their intention to live with the supporter applying for the residence permit, and prove that they and their spouses meet the legal age limit (eighteen years and older).",
+    "notApprovedReasons": "Why are family residence permit applications not approved?",
+    "notMetConditions": "If the conditions requested during the application process are not met or cease to exist.",
+    "misuse": "If the permit is used for purposes other than its intended purpose.",
+    "entryBan": "In case of having a deportation or entry ban to the country."
+  },
+  "edicationResidencePermit": {
+    "title": "Edication Residence Permit",
+    "info1": "Foreign nationals who obtain a residence permit in the Republic of Turkey are required to declare the necessary documents for a student residence permit to the relevant Provincial Directorate of Migration Management.",
+    "whoCanApply": "Who can apply for a student residence permit?",
+    "undergraduate": "Foreign nationals who will receive education at the primary and secondary education levels without a family residence permit.",
+    "graduate": "Foreign students who will receive education such as TUS, DUS, and doctoral studies.",
+    "info2": "* Only spouses and children/dependents of foreign nationals with a student residence permit can be granted a family residence permit. No other family members are granted any privileges.",
+    "permitDuration": "In what durations is a student residence permit issued?",
+    "shortTerm": "Foreign nationals whose education period is less than one year are granted a residence permit for the duration of their education.",
+    "longTerm": "Foreign nationals whose education period exceeds one year are granted a residence permit for the duration of their education, and the permits can be extended annually.",
+    "requirements": "What are the requirements for a student residence permit?",
+    "noLegalBarriers": "No legal impediments preventing residence in the Republic of Turkey.",
+    "educationDocuments": "Preparation and declaration of documents showing the education to be received.",
+    "addressDeclaration": "Declaration of the address information to be resided in the Republic of Turkey.",
+    "healthInsurance": "Is health insurance mandatory for a student residence permit?",
+    "insuranceRequirement": "Under the Social Insurance and General Health Insurance Law, foreign nationals who do not apply to become general health insured within three months from the registration date may not be provided with other health insurance. Those who do not become general health insured after the three-month period may be required to obtain private health insurance."
+  },
+  "mainHumanitarianResidencePermitItems": {
+    "title": "Humanitarian Residence Permit",
+    "info1": "Foreign nationals who have entered Turkey legally fleeing internal turmoil or war in their country of residence or who are required to stay in Turkey can be granted a short-term residence permit for up to one year.",
+    "whoCanApply": "Who can apply for a humanitarian residence permit?",
+    "spouse": "Foreign national spouse.",
+    "minorChild": "Minor foreign national child of the spouse or oneself.",
+    "dependentChild": "Dependent child of the spouse or oneself.",
+    "reasons": {
+      "title": "Reasons",
+      "item1": "When it is highly beneficial for the child.",
+      "item2": "When a deportation or entry ban decision has been taken against foreign nationals but they are not deemed suitable to leave the Turkish Republic.",
+      "item3": "During the continuation process of the applicant's return to the initial country of asylum or another safe country.",
+      "item4": "For urgent reasons or for the protection of national interests, public order, and public safety, foreign nationals who need to enter and reside in the Turkish Republic.",
+      "item5": "In extraordinary circumstances.",
+      "item6": "Foreign nationals under humanitarian residence permits and temporary protection status are not granted long-term residence rights. Additionally, foreign nationals holding humanitarian residence permits must register with the address registration system within twenty working days from the date of issuance of the permit."
+    }
+  },
+  "mainLongTermResidencePermitItems": {
+    "title": "What is Long-Term Residence Permit?",
+    "info1": "To obtain a long-term residence permit in Turkey, it is sufficient to have resided continuously in the Turkish Republic for at least 8 (eight) years. Foreign nationals who meet the necessary conditions can obtain a long-term residence permit from the competent authorities in the city or district where they reside.",
+    "conditions": {
+      "title": "Conditions for Long-Term Residence Permit:",
+      "item1": "To have stayed continuously in Turkey for 8 (eight) years.",
+      "item2": "Not to have received social assistance within the last 3 (three) years.",
+      "item3": "To have a source of income that can support oneself and, if applicable, their family.",
+      "item4": "To have valid health insurance from public or private health institutions.",
+      "item5": "To ensure that there are no concerns regarding public order and security."
+    },
+    "calculation": {
+      "title": "Calculation of the 8 (Eight) Year Period:",
+      "description": "As specified in the conditions, the calculation of the eight-year period includes half of the time spent under a student residence permit, with all remaining permits taken full-time to complete the eight-year period."
+    },
+    "cancellation": {
+      "title": "Cancellation of Long-Term Residence Permit:",
+      "reason1": "When staying outside the borders of the Turkish Republic for more than 1 (one) year continuously, except for health, education, or mandatory public service in their country of nationality.",
+      "reason2": "When the foreign national poses a threat to public health, order, or security.",
+      "reapplication": "Can a re-application be made for a rejected long-term residence permit?",
+      "reapplicationDetails": "Foreign nationals whose long-term residence permit application is cancelled/rejected can apply through the appropriate procedures at Turkish Republic consulates abroad or, domestically, at the competent authorities in the city where the foreign national resides. The requirement of continuous 8 (eight) years is not necessary for repeated applications."
+    }
+  },
+  "mainTouristResidencePermitItems": {
+    "title": "Tourist Residence Permit",
+    "info1": "Foreign nationals aiming to stay in the Republic of Turkey for tourist purposes may be required to submit documents to the competent authorities specifying where, when, and for how long they intend to stay.",
+    "info2": "As of 2018, applicants for a tourist residence permit must submit a criminal record certificate and documents showing how they will support themselves during their stay in the Republic of Turkey."
+  },
+  "mainShortTermResidencePermitItems": {
+    "title": "Short-Term Residence Permit",
+    "info1": "Foreign nationals who have entered the Republic of Turkey with a visa or visa exemption document can obtain a short-term residence permit for up to 1 (one) year if they apply and meet the necessary conditions. To obtain a short-term residence permit, they must apply to the Migration and Asylum Offices with a visa or visa exemption document, create an appointment, and prepare the required documents completely until the appointment date.",
+    "whoCanApply": "Who can apply for a short-term residence permit?",
+    "tourism": "Foreign nationals visiting the Republic of Turkey for tourism purposes.",
+    "business": "Foreign nationals who need to be in the Republic of Turkey for business meetings, negotiations, conferences, fairs, or education.",
+    "sportingEvents": "Foreign nationals participating in sports activities in the Republic of Turkey.",
+    "artist": "Foreign nationals participating in artistic or cultural events.",
+    "education": "Foreign nationals entering the Republic of Turkey for short-term education programs.",
+    "info2": "Foreign nationals applying for a short-term residence permit must submit documents such as passport, visa or visa exemption document, residence permit application form, document indicating the place of stay within the borders of the Republic of Turkey, criminal record certificate, and health insurance certificate.",
+    "validityPeriod": "For how long is the short-term residence permit valid?",
+    "singleEntry": "Foreign nationals who have entered with a visa or visa exemption document can obtain a residence permit for a maximum of 90 days in the Republic of Turkey.",
+    "multipleEntry": "Foreign nationals with multiple entry permission who have entered with a visa or visa exemption document can obtain a residence permit for a maximum of 180 days in the Republic of Turkey."
+  },
+  "mainForeingHealthInsuranceItems": {
+    "insuranceTitle": "Foreign Health Insurance",
+    "insuranceDescription": "Foreign health insurance is essential for accessing healthcare services while traveling abroad. This type of insurance can help cover medical expenses in case of unexpected health issues or accidents.",
+    "insuranceBenefits": "Some key benefits that foreign health insurance can provide include:",
+    "benefit1": "Emergency medical assistance",
+    "benefit2": "Medical evacuation expenses",
+    "benefit3": "Hospitalization expenses due to illness or accident",
+    "insuranceCoverage": "Foreign health insurance typically covers the following areas:",
+    "coverage1": "Emergency and unexpected health issues",
+    "coverage2": "Hospitalizations",
+    "coverage3": "Surgeries and treatments",
+    "howToGetInsurance": "How to get foreign health insurance?",
+    "stepsToGetInsurance": "Some basic steps to follow to get foreign health insurance include:",
+    "step1": "Choose a reputable insurance company.",
+    "step2": "Select your insurance plan and apply.",
+    "step3": "Once you receive your insurance policy, carry the necessary information and documents for emergencies during your travels."
+  },
+  "mainFooterItems": {
+    "contactInfo": {
+      "title": "Contact Information",
+      "address": "Address: Pirebi Neighborhood, Söylemez Street 12/D Meram/KONYA",
+      "phone": "Phone: +90 507 911 74 83",
+      "email": "Email: holatercume@gmail.com"
+    },
+    "aboutInfo": {
+      "title": "About Us",
+      "description": "We are a company specialized in foreign residence permits and health insurance."
+    },
+    "quickLinks": {
+      "title": "Quick Access",
+      "home": "Home",
+      "services": "Services",
+      "faq": "FAQ",
+      "contact": "Contact"
+    },
+    "socialMedia": {
+      "title": "Social Media",
+      "facebook": "Facebook",
+      "instagram": "Instagram"
+    }
+  },
+  "footer": {
+    "allRightsReserved": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use"
+  },
+  "privacyPolicy": {
+    "lastUpdated": "Last updated: [01.07.2024]",
+    "title": "Privacy Policy",
+    "intro": "At Hola Global, we are committed to protecting customer privacy. This privacy policy outlines how Hola Global collects and uses information gathered through its website.",
+    "collectedInformation": {
+      "title": "Collected Information",
+      "content": "When you visit our website or interact with us, we may collect the following types of information:",
+      "personalInfo": {
+        "title": "Personal Information",
+        "content": "Information that directly identifies you, such as name, email address, phone number."
+      },
+      "cookies": {
+        "title": "Cookies and Tracking Technologies",
+        "content": "Cookies and similar technologies used to gather anonymous information about website usage."
+      }
+    },
+    "useOfInformation": {
+      "title": "Use of Information",
+      "content": "We may use the collected information for the following purposes:",
+      "purposes": [
+        "Providing and managing the services offered.",
+        "Improving and personalizing the website.",
+        "Communicating with you and sending you information and marketing notifications."
+      ]
+    },
+    "sharingOfInformation": {
+      "title": "Sharing of Information",
+      "content": "Hola Global may share collected information with third parties in compliance with legal requirements or for business collaboration purposes. However, we will never sell or rent your information for commercial purposes."
+    },
+    "security": {
+      "title": "Security",
+      "content": "Hola Global implements appropriate technical and organizational measures to ensure the security of collected information. However, transmitting or storing information over the internet may not guarantee full security."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "content": "By using our website, you consent to the use of cookies. For more information or to change your cookie preferences, visit our [Cookie Policy](/cookies)."
+    },
+    "changes": {
+      "title": "Changes",
+      "content": "This privacy policy may be updated periodically. Updates will take effect upon publication on our website. We will always prominently display the policy's last update date."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "content": "For questions or feedback regarding our privacy policy, please contact us"
+    }
+  },
+  "termsOfUse": {
+    "title": "Terms of Use",
+    "lastUpdated": "Last updated: [Date]",
+    "intro": "Please read and agree to the following terms of use carefully when using our website.",
+    "sections": {
+      "websiteUsage": {
+        "title": "Website Usage",
+        "content": "By using our website, you agree to these terms of use. Any use that does not comply with the terms of use is prohibited."
+      },
+      "serviceTerms": {
+        "title": "Service Terms",
+        "content": "By using our provided services, you agree to adhere to the relevant service terms and policies."
+      },
+      "disclaimer": {
+        "title": "Disclaimer of Liability",
+        "content": "Hola Global is not responsible for any loss or damage arising from the use of the website or provided services."
+      },
+      "changes": {
+        "title": "Changes",
+        "content": "These terms of use may be updated periodically. Updates become effective after being published on our website."
+      },
+      "contact": {
+        "title": "Contact",
+        "content": "For questions or feedback regarding the terms of use, please contact us."
+      }
+    }
+  },
+  "languageSelector": {
+    "label": "Language"
+  },
+  "faq": {
+    "mainTitle": "Frequently Asked Questions",
+    "residence": {
+      "1": {
+        "title": "Can a person married to a Turkish citizen apply for a residence permit in case of a violation?",
+        "content": "A foreign national married to a Turkish citizen who has overstayed their visa up to 90 days or has an indefinite residence permit violation should exit the country if possible, or if not, be directed to the Provincial Directorate of Migration Management."
+      },
+      "2": {
+        "title": "I studied at X university for 2 years and then transferred to Y university. What procedure should I follow?",
+        "content": "If the student does not interrupt their studies and reports the change within the period, their current residence permit remains valid in case of a faculty or department change within the same educational institution or institution change within the same city. These students must notify the Provincial Directorate of Migration Management of their change within 20 business days. If the residence permit is shorter than the study period, it will be extended to match the study period. If the education continues in a different city, the existing residence permit will be terminated by the governorate of the new city and a new residence permit will be issued for the new study period."
+      },
+      "3": {
+        "title": "Can I travel abroad during the 90-day evaluation period?",
+        "content": "Foreign nationals applying for the first time will be issued a residence permit application document by the Provincial Directorate of Migration Management on the appointment day. For extension applications, the application document is automatically generated by the system. This document, along with certified copies of the fee receipts, provides the right for multiple exits and entries within 15 days each time."
+      },
+      "4": {
+        "title": "Do I need to bring a criminal record for all family members when applying for a family residence permit?",
+        "content": "A criminal record is required for the person providing the financial support in family residence permit applications. The authorities may request additional supporting documents at any time."
+      },
+      "5": {
+        "title": "What is an Apostille?",
+        "content": "An Apostille is a certification that allows a document to be legally recognized in another country."
+      },
+      "6": {
+        "title": "Where can I obtain an Apostille?",
+        "content": "If you are a citizen of a country that is a party to the Apostille Convention, you need to request the document from the authorities of the country where the document was issued. (The list of countries that are parties to the Apostille Convention is available on the Ministry of Justice's website.)"
+      },
+      "7": {
+        "title": "Does an Apostilled document need additional certification?",
+        "content": "For use in Turkish institutions, the document must be translated into Turkish by a sworn translator and notarized."
+      },
+      "8": {
+        "title": "Can my friend provide an undertaking for me to stay with them?",
+        "content": "If you will stay with a third party (not a relative), a notarized undertaking from the person you will stay with (and from their spouse if they are married) is required."
+      },
+      "9": {
+        "title": "Do I need to obtain a family residence permit for my child?",
+        "content": "If the conditions are met, the sponsor can apply for a family residence permit for their foreign child or the dependent child of their spouse, even if they are over 18 years old. If the family residence permit conditions are not met, they can apply for another type of residence permit appropriate for their purposes. The assessment is made by the Provincial Directorate of Migration Management."
+      },
+      "10": {
+        "title": "Is there any penalty if I stay abroad for more than fifteen days with the application document during the evaluation process?",
+        "content": "If the fifteen-day period is exceeded, the general visa rules apply. The rule of staying for ninety days within one hundred eighty days remains in effect according to the 10th article."
+      },
+      "11": {
+        "title": "Are documents obtained from e-Government valid for residence permit applications?",
+        "content": "Documents obtained from e-Government with the statement 'can be used in official institutions' are accepted."
+      },
+      "12": {
+        "title": "When entering insurance information in the e-Residence application form, what should be done for those under 18 and over 65, even though insurance is not mandatory for them?",
+        "content": "In the e-Residence system for short-term and student residence permits, the option 'those under 18 and over 65' should be selected. For family residence permits, the sponsor must have valid health insurance covering all family members. Foreign nationals under 18 who do not have independent income or assets cannot obtain a long-term residence permit. For those over 65, it is sufficient to provide a document stating they cannot obtain insurance for long-term residence permits."
+      },
+      "13": {
+        "title": "How many days are given to complete missing documents?",
+        "content": "The administration may grant up to 30 days to complete missing documents. If you do not complete the missing documents within the specified period, your application will be dismissed."
+      },
+      "14": {
+        "title": "Can two foreign nationals who are married apply for a family residence permit?",
+        "content": "If two foreign nationals wish to apply for a family residence permit, one must support the other (provided they have lived in our country for at least one year with a residence permit or have a work permit). Therefore, both cannot be issued family residence permits simultaneously. However, the foreign national who meets the conditions can be a sponsor."
+      },
+      "15": {
+        "title": "Can I apply for an extension to switch to a different type of residence permit?",
+        "content": "Foreign nationals may apply for a residence permit suitable for their new stay purpose if the reason for the initial residence permit no longer exists or if a different reason arises. This should be done as a transition application."
+      },
+      "16": {
+        "title": "Can I apply for a residence permit with an expired passport?",
+        "content": "Foreign nationals applying for a residence permit must have a passport or a document that substitutes a passport with a validity period at least 60 days longer than the requested residence permit period. Therefore, you cannot apply for a residence permit with an expired passport. (You can apply with an expired passport through the e-Residence system by entering the validity period of your new passport. However, during the assessment of the residence permit, you must have a passport or a document that substitutes a passport with a validity period at least 60 days longer than the requested residence permit period.)"
+      },
+      "17": {
+        "title": "How much money do I need to have in the bank to get a residence permit?",
+        "content": "For short-term and student residence permits, the foreign national's statement is sufficient unless the administration requests further information or documents. For a family residence permit, the sponsor must have a total income not less than the minimum wage and an income per family member not less than one-third of the minimum wage. For a long-term residence permit, you must have sufficient and regular income. In assessing sufficient and regular income, an income equal to the minimum wage can be accepted. Having an income-generating property, having enough money in a bank account to support your stay in our country, etc., are also acceptable."
+      },
+      "18": {
+        "title": "How long does it take to process residence permit applications?",
+        "content": "Residence permit applications are processed within ninety days from the date the application is accepted. The ninety-day period starts from the date the information and documents are fully submitted to the competent authority. If the period is extended, the foreign national will be informed."
+      },
+      "19": {
+        "title": "What documents may the administration request as proof of financial income for residence permit applications?",
+        "content": "Documents such as a pension identification card and pension allocation certificate, bank account passbook, international credit card, an up-to-date certified income document stating that there is no lien, company letter with seal and signature, document showing bank deposit income, document indicating the amount held in the bank for the stay period, title deed of the property and a lease contract not older than two years if rental income is involved, tax certificate copy, trade registry gazette, signature circular, certified balance sheet and income statement for the last three years by the tax office or certified public accountant for self-employed individuals, current year trial balance, registration certificate or activity document from the Chamber of Crafts and Artisans. If the income declaration document is obtained from abroad, a notarized Turkish translation by a sworn translator must be provided."
+      },
+      "20": {
+        "title": "How long should my passport be valid for a residence permit application?",
+        "content": "Your passport or travel document must be valid for at least 60 days longer than the requested residence permit period."
+      },
+      "21": {
+        "title": "My residence permit application was rejected, what should I do? Can I apply again?",
+        "content": "If the residence permit request is rejected, not extended, or canceled, the foreign national or their legal representative or lawyer is notified. The notification will include information on how to effectively exercise the right to appeal and other legal rights and obligations during this process. Furthermore, if the residence permit application is rejected, you cannot apply with the same stay purpose within six months. You may apply with a different stay purpose if your legal period is still ongoing."
+      },
+      "22": {
+        "title": "Can foreign nationals who have applied for a residence permit but haven't received their permit yet start work?",
+        "content": "A foreign national cannot start work without receiving their work permit and their residence permit issued as a result of their work permit application."
+      },
+      "23": {
+        "title": "What should I do if I lose my residence permit card?",
+        "content": "If you lose your residence permit card, you should report it to the nearest police station immediately and apply for a replacement at the Provincial Directorate of Migration Management."
+      },
+      "24": {
+        "title": "Can I travel within Turkey with my residence permit?",
+        "content": "Yes, a valid residence permit allows you to travel within Turkey without any additional permits."
+      },
+      "25": {
+        "title": "Can I apply for Turkish citizenship with a residence permit?",
+        "content": "Residence permits are a prerequisite for applying for Turkish citizenship, but additional conditions must be met. You should consult the relevant authorities for detailed requirements."
+      },
+      "26": {
+        "title": "How can I check the status of my residence permit application?",
+        "content": "You can check the status of your residence permit application through the e-Residence system using your application reference number."
+      },
+      "27": {
+        "title": "What happens if my residence permit expires while I am abroad?",
+        "content": "If your residence permit expires while you are abroad, you need to apply for a new visa to re-enter Turkey."
+      },
+      "28": {
+        "title": "Can I apply for a residence permit online?",
+        "content": "Yes, you can apply for a residence permit online through the e-Residence system."
+      },
+      "29": {
+        "title": "Is there a penalty for overstaying my visa before applying for a residence permit?",
+        "content": "Overstaying your visa before applying for a residence permit can result in fines and may affect the approval of your residence permit application."
+      },
+      "30": {
+        "title": "Can I change my residence address without updating my residence permit?",
+        "content": "No, you must update your residence permit with your new address by notifying the Provincial Directorate of Migration Management within 20 business days."
+      },
+      "31": {
+        "title": "Do I need health insurance for a residence permit?",
+        "content": "Yes, health insurance is required for most types of residence permits unless you are exempt due to age or other specific conditions."
+      },
+      "32": {
+        "title": "Can I apply for a residence permit if I am already in Turkey on a tourist visa?",
+        "content": "Yes, you can apply for a residence permit while in Turkey on a tourist visa, but you must do so before your visa expires."
+      },
+      "33": {
+        "title": "How can I extend my residence permit?",
+        "content": "You can extend your residence permit by applying online through the e-Residence system and submitting the required documents before your current permit expires."
+      },
+      "34": {
+        "title": "What should I do if my residence permit application is denied?",
+        "content": "If your residence permit application is denied, you have the right to appeal the decision. Follow the instructions provided in the denial notice to file an appeal."
+      },
+      "35": {
+        "title": "Can I sponsor my family members for residence permits?",
+        "content": "Yes, you can sponsor your family members for residence permits if you meet the financial and other requirements set by the authorities."
+      },
+      "36": {
+        "title": "What are the requirements for a student residence permit?",
+        "content": "To apply for a student residence permit, you must be enrolled in a recognized educational institution in Turkey and provide proof of enrollment, financial means, and health insurance."
+      },
+      "37": {
+        "title": "Can I convert my residence permit to a work permit?",
+        "content": "Yes, you can convert your residence permit to a work permit if you have a job offer and meet the requirements set by the Ministry of Labor and Social Security."
+      },
+      "38": {
+        "title": "How do I apply for a family residence permit?",
+        "content": "To apply for a family residence permit, you need to submit an application online through the e-Residence system and provide the necessary documents, including proof of relationship, financial means, and health insurance."
+      },
+      "39": {
+        "title": "Can I renew my residence permit if my passport is about to expire?",
+        "content": "Your passport must be valid for at least 60 days beyond the requested renewal period of your residence permit. You should renew your passport before applying for the residence permit renewal."
+      },
+      "40": {
+        "title": "What should I do if my residence permit card is damaged?",
+        "content": "If your residence permit card is damaged, you should apply for a replacement at the Provincial Directorate of Migration Management and provide the damaged card along with other required documents."
+      },
+      "41": {
+        "title": "Can I apply for a long-term residence permit?",
+        "content": "Foreign nationals who have legally resided in Turkey for at least eight years without interruption can apply for a long-term residence permit."
+      },
+      "42": {
+        "title": "How long does it take to process a residence permit application?",
+        "content": "Processing times for residence permit applications can vary. It's recommended to check the current processing times on the e-Residence system or consult with the Provincial Directorate of Migration Management."
+      },
+      "43": {
+        "title": "Can I work remotely with a residence permit in Turkey?",
+        "content": "Yes, you can work remotely with a residence permit in Turkey, provided that your employment complies with Turkish laws and regulations."
+      },
+      "44": {
+        "title": "Do I need to submit biometric data for a residence permit application?",
+        "content": "Yes, biometric data (such as fingerprints) are required as part of the residence permit application process."
+      },
+      "45": {
+        "title": "Can I apply for a residence permit for purposes other than work or study?",
+        "content": "Yes, you can apply for a residence permit for various purposes, including family reunification, tourism, medical treatment, or accompanying a family member."
+      },
+      "46": {
+        "title": "Can I apply for a residence permit if I am married to a Turkish citizen?",
+        "content": "Yes, you can apply for a residence permit as the spouse of a Turkish citizen. Specific requirements and procedures apply, which you should verify with the authorities."
+      },
+      "47": {
+        "title": "Is there a minimum income requirement for obtaining a residence permit?",
+        "content": "Yes, certain types of residence permits may require applicants to demonstrate a minimum level of income or financial means to support themselves during their stay in Turkey."
+      },
+      "48": {
+        "title": "Can I apply for Turkish citizenship directly through a residence permit?",
+        "content": "No, holding a residence permit alone does not grant eligibility for Turkish citizenship. Separate criteria and conditions must be fulfilled for Turkish citizenship application."
+      },
+      "49": {
+        "title": "What should I do if I change my employer while holding a work permit?",
+        "content": "If you change your employer while holding a work permit, you must notify the Ministry of Labor and Social Security and apply for a new work permit under your new employer."
+      },
+      "50": {
+        "title": "Can I travel outside Turkey while my residence permit is being processed?",
+        "content": "Yes, you can travel outside Turkey while your residence permit application is being processed. However, it's advisable to check any specific conditions or requirements related to your application."
+      },
+      "51": {
+        "title": "How can I extend my residence permit in Turkey?",
+        "content": "You can extend your residence permit by applying for renewal through the e-Residence system or at the Provincial Directorate of Migration Management before your current permit expires."
+      },
+      "52": {
+        "title": "What happens if my residence permit application is rejected?",
+        "content": "If your residence permit application is rejected, you will receive a written explanation for the rejection. You may have the right to appeal the decision within a specified period."
+      },
+      "53": {
+        "title": "Can I apply for a residence permit for my children?",
+        "content": "Yes, you can apply for a residence permit for your children if they are accompanying you in Turkey. Specific requirements and documentation may be needed."
+      },
+      "54": {
+        "title": "Can I rent property in Turkey with a residence permit?",
+        "content": "Yes, you can rent property in Turkey with a residence permit. There are no specific restrictions preventing residence permit holders from renting property."
+      },
+      "55": {
+        "title": "Do I need health insurance to obtain a residence permit?",
+        "content": "Yes, having valid health insurance coverage is generally required to obtain and maintain a residence permit in Turkey. This ensures you have access to healthcare services during your stay."
+      },
+      "56": {
+        "title": "Can I apply for a residence permit if I own property in Turkey?",
+        "content": "Yes, owning property in Turkey can be one of the criteria for applying for a residence permit. Specific conditions and documentation may apply, depending on the type of residence permit you are seeking."
+      },
+      "57": {
+        "title": "Is there an age limit for applying for a residence permit?",
+        "content": "There is no specific age limit for applying for a residence permit in Turkey. However, minors (under 18) must be accompanied by a parent or legal guardian during the application process."
+      },
+      "58": {
+        "title": "Can I apply for a residence permit if I am a student in Turkey?",
+        "content": "Yes, students enrolled in educational institutions in Turkey can apply for a residence permit. The permit is typically valid for the duration of their study program."
+      },
+      "59": {
+        "title": "Can I apply for a residence permit online?",
+        "content": "Yes, you can apply for a residence permit online through the e-Residence system. This system allows you to complete your application, upload necessary documents, and schedule an appointment for biometric data submission."
+      },
+      "60": {
+        "title": "What are the requirements for obtaining a short-term residence permit?",
+        "content": "Requirements for a short-term residence permit in Turkey may include proof of accommodation, sufficient financial means to support yourself, and health insurance coverage."
+      }
+    }
+  },
+  "contact": {
+    "phoneNumber": {
+      "title": "Contact Number",
+      "content": "+90 507 911 74 83"
+    },
+    "email": {
+      "title": "Email",
+      "content": "holatercume@gmail.com"
+    },
+    "address": {
+      "title": "Address",
+      "content": "Pirebi Neighborhood, Söylemez Street 12/D Meram/KONYA"
+    }
+  },
+  "services": {
+    "mainTitle": "Services",
+    "1": {
+      "title": "Translation Services",
+      "content": "Hola Global offers multilingual translation services. Our expert translators help you overcome language barriers and strengthen your communication in the global market."
+    },
+    "2": {
+      "title": "Foreign Language Support",
+      "content": "Hola Global provides professional translation and language support services for your foreign language communication needs. We offer solutions for all your needs, from business meetings to official correspondence."
+    },
+    "3": {
+      "title": "Foreign Residence Consultancy",
+      "content": "Hola Global offers comprehensive consultancy services for those who want to reside in foreign countries. We manage your residence permit applications and provide support at every stage of the process."
+    },
+    "4": {
+      "title": "Visa Application Services",
+      "content": "Hola Global ensures the smooth management of your visa applications. Our expert team understands your visa requirements and follows up on the processes on your behalf during the application process."
+    },
+    "5": {
+      "title": "Global Legal Consultancy",
+      "content": "Hola Global offers specialized consultancy services in the field of international law. We help you understand the legal requirements in foreign countries and support you in taking the right steps in your legal processes."
+    }
+  },
+"mainStartItems": {
+  "Button1": "RESIDENCE PERMIT APPLICATION",
+  "Button2": "FOREIGN HEALTH INSURANCE"
+}
+
+  }

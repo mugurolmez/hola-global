@@ -1,0 +1,559 @@
+{ "adapterLocale":"tr",
+  "formTitleInsurance": "Sigorta Başvuru Formu",
+  "formTitleQuick": "Hızlı Başvuru Formu",
+  "name": "Ad",
+  "lastName": "Soyad",
+  "dateOfBirth": "Doğum Tarihi",
+  "passportNumber": "Pasaport Numarası",
+  "typeOfResidencePermit": "Oturma İzni Türü",
+  "phoneNumber": "Telefon Numarası",
+  "nationality": "Milliyet",
+  "submitButton": "Formu Gönder",
+  "sendingButton":"Gönderiliyor..",
+  "validation": {
+    "nameRequired": "Ad gereklidir",
+    "lastNameRequired": "Soyad gereklidir",
+    "dateOfBirthRequired": "Doğum Tarihi gereklidir",
+    "dateOfBirthInvalid": "Geçersiz tarih formatı",
+    "passportNumberRequired": "Pasaport Numarası gereklidir",
+    "typeOfResidencePermitRequired": "Oturma İzni Türü gereklidir",
+    "phoneNumberRequired": "Telefon Numarası gereklidir",
+    "phoneNumberFormat":"Telefon numarası 05xx şeklinde başlamalıdır",
+    "nationalityRequired": "Milliyet gereklidir"
+  },
+  "mainHomeTextItems": {
+    "title": "H O L A !",
+    "welcomeMessage": "İkamet İzinleri Merkezi'ne Hoş Geldiniz!",
+    "description": "HOLA !, ikamet izinleri alım sürecini kolaylaştıran ve hızlandıran lider bir platform olarak, Türkiye'de yaşayan yabancılar için güvenilir çözümler sunar. Bizler, ikamet izinlerinin alım sürecini sizin için daha hızlı ve kolay hale getirmek için buradayız.",
+    "servicesTitle": "Hizmetlerimiz:",
+    "serviceDetails": "İkamet İzni Başvuruları: Türkiye'de ikamet izni alım sürecini başlatmak veya devam ettirmek için gereken tüm adımları sizin için yönetiyoruz. Profesyonel danışmanlarımız, başvurunuzun sorunsuz bir şekilde tamamlanmasını sağlar. Danışmanlık Hizmetleri: İkamet izni süreci hakkında bilgi almak veya özel danışmanlık hizmetleri için bizimle iletişime geçebilirsiniz. Uzman ekibimiz, sizin için en uygun çözümü sunmak için burada.",
+    "updatesInfo": "Güncel Bilgilendirme: İkamet izni sürecindeki son güncellemeleri ve değişiklikleri takip etmek için bizi takip edin. Yeni yönetmelikler, prosedürler ve haberler hakkında bilgi sahibi olmak için sitemizi düzenli olarak ziyaret edin.",
+    "whyHolaTitle": "Neden Hola Global?",
+    "whyHolaDetails": "Deneyimli Ekibimiz: HOLA !'da, alanında uzman danışmanlarımızla ikamet izni sürecini en iyi şekilde yönetiyoruz. Hızlı ve Güvenilir Hizmet: Başvurularınızı hızlı bir şekilde işleme alır ve sonuçlandırırız, böylece sizin için zaman kazanırız. Müşteri Memnuniyeti: Müşteri odaklı yaklaşımımızla, ihtiyaçlarınıza uygun çözümler sunarız ve memnuniyetinizi en üst düzeyde tutarız.",
+    "finalMessage": "Siz de Türkiye'de ikamet izni alım sürecinde yanınızda güçlü bir ortağa ihtiyaç duyuyorsanız, bizimle iletişime geçmekten çekinmeyin. İkamet izinlerinizin en sorunsuz ve verimli şekilde tamamlanması için HOLA ! yanınızda!"
+  },
+  "mainNavbarItems": {
+    "homeLabel": "Anasayfa",
+    "homeText": "AnaSayfa",
+    "residencePermitsLabel": "İKAMET İZİNLERİ",
+    "residencePermitsText": "İKAMET İZİNLERİ",
+    "healthInsuranceLabel": "YABANCI SAĞLIK SİGORTASI",
+    "healthInsuranceText": "YABANCI SAĞLIK SİGORTASI",
+    "contactLabel": "İLETİŞİM",
+    "contactText": "İLETİŞİM"
+  },
+  "mainTabItems": {
+    "familyResidencePermit": "Aile İkamet İzni",
+    "educationResidencePermit": "Öğrenci İkamet İzni",
+    "touristResidencePermit": "Turistik İkamet İzni",
+    "humanitarianResidencePermit": "İnsani İkamet İzni",
+    "shortTermResidencePermit": "Kısa Dönem İkamet",
+    "longTermResidencePermit": "Uzun Dönem İkamet"
+  },
+  "familyResidencePermit": {
+    "title": "Aile İkamet İzni",
+    "info1": "Türkiye Cumhuriyeti’ne gelerek ikamet izin belgesi alan yabancı uyruklu vatandaşların, birinci dereceden yakınları da aynı şekilde ikamet belgesi alabilirler.",
+    "whoCanApply": "Aile ikamet belgesi kimler için düzenlenebilir?",
+    "spouse": "Yabancı uyruklu eş’e.",
+    "minorChild": "Eşinin ya da kendinin erişkin olmayan yabancı uyruklu çocuğuna.",
+    "dependentChild": "Eşinin ya da kendinin bağımlı çocuğuna.",
+    "info2": "*Öğrenci ikamet izin belgesi, öğrencinin hiç bir yakınına ikamet izin belgesi hakkı vermez.",
+    "multipleSpouses": "Aile ikamet izini için başvuru talebinde bulunan yabancı uyruklu vatandaşın birden fazla eşi olması durumunda, eşlerden ancak birine ikamet izni başvurusunda bulunabilir.",
+    "educationRestriction": "Aile ikamet izin belgesi ile, öğrenci ikamet belgesi olmadan yabancı uyruklu çocuk ancak ilk ve orta öğretim kurumlarında on sekiz yaşına kadar eğitim alabilmektedir.",
+    "shortTermPermit": "Aile ikamet izini olan yabancı uyruklu vatandaşlar hangi durumlarda kısa dönem ikamet izini için başvuruda bulunabilirler?",
+    "divorce": "Türk vatandaşı ile evli yabancı uyruklu birinin boşanma sürecinde ve en az üç yıl aile ikameti ile Türkiye’de kalması şartıyla. (Aile içi şiddet sebebiyle mağduriyetini mahkeme kararı ile kanıtladıysa üç yıl aile ikametiyle Türkiye’de kalmış olma zorunluluğu aranmaz).",
+    "supporterDeath": "Destekleyicinin vefatı durumunda ona bağlı, aile ikameti bulunan yabancı uyruklu vatandaşlar.",
+    "threeYearsStay": "En az üç yıl aile ikamet izni ile ülkemizde kalmış, on sekiz yaşını doldurmuş yabancı uyruklu vatandaşlar.",
+    "requirements": "Aile ikamet izni için aranan koşullar nelerdir?",
+    "healthInsurance": "Destekleyicinin aile bireylerinin hepsini kapsayan geçerli sağlık sigortası, aile bireylerinin her biri için Türkiye Cumhuriyeti Anayasasıyla belirlenmiş asgari ücretin en az üçte biri kadar gelir miktarı, beş yıl içerisinde aile düzenine karşı bir suç işlemediğini belirten adli sicil kaydı ve en az bir yıl Türkiye Cumhuriyeti'nde ikamet edip adres kayıt sisteminde kaydının bulunması.",
+    "purposeStatement": "Aile ikamet izni için başvuran yabancı uyruklu vatandaşların Türkiye Cumhuriyeti'nde kalış amaçlarını açıklayan belgelerin beyan edilmesi, başvuruda bulunan destekleyici ile birlikte yaşama niyetini ya da yaşadığını ispatlaması ve eşlerin yasal yaş sınırını doldurması (on sekiz yaş ve üzeri) gereklidir.",
+    "notApprovedReasons": "Aile ikamet izin başvuruları neden onaylanmaz?",
+    "notMetConditions": "Başvuru sırasında istenen koşulların oluşturulmaması ve ya ortadan kalkması durumunda.",
+    "misuse": "Verilen izinin verilme amacı dışında kullanılması durumunda.",
+    "entryBan": "Hakkında sınır dışı ya da ülkeye giriş yasağının bulunması durumunda."
+  },
+  "edicationResidencePermit": {
+    "title": "Öğrenci İkamet İzni",
+    "info1": "Türkiye Cumhuriyeti’ne gelerek ikamet izin belgesi alan yabancı uyruklu vatandaşların, öğrenci ikamet tezkeresi için gerekli belgeleri ilgili İl Göç İdaresi'ne beyan etmeleri gerekmektedir.",
+    "whoCanApply": "Öğrenci ikamet izni için başvuruda bulunabilecek yabancı uyruklu vatandaşlar kimlerdir?",
+    "undergraduate": "Aile ikamet izin tezkeresi bulunmayan, ilk ve orta öğrenim seviyesinde eğitim alacak yabancı uyruklu vatandaşlar.",
+    "graduate": "TUS, DUS ve doktora eğitimi alacak yabancı uyruklu öğrenciler.",
+    "info2": "* Öğrenci ikamet izni bulunan yabancı uyruklu vatandaşın yalnızca eş ve çocuk/çocuklarına aile ikamet izni verilebilir. Geri kalan aile bireylerine hiçbir ayrıcalık sağlanmaz.",
+    "permitDuration": "Öğrenci ikamet izni hangi sürelerde düzenlenir?",
+    "shortTerm": "Eğitim süresi bir yıldan kısa olan yabancı uyruklu vatandaşlara, eğitim süresi boyunca ikamet izni verilir.",
+    "longTerm": "Eğitim süresi bir yıldan uzun olan yabancı uyruklu vatandaşlara eğitim süreci boyunca ikamet izni verilir ve süreçler bir yıl aralıklarla uzatılabilir.",
+    "requirements": "Öğrenci ikamet izni için sağlanması gereken koşullar nelerdir?",
+    "noLegalBarriers": "Türkiye Cumhuriyeti’nde ikamet etmeyi engelleyen yasal bir durumun bulunmaması.",
+    "educationDocuments": "Alınacak eğitimi gösteren belgelerin hazırlanması ve beyan edilmesi.",
+    "addressDeclaration": "Türkiye Cumhuriyeti’nde ikamet edilecek adres bilgisinin beyan edilmesi.",
+    "healthInsurance": "Öğrenci ikamet izni için sağlık sigortası zorunlu mudur?",
+    "insuranceRequirement": "Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu gereğince, kayıt tarihinden itibaren üç ay içinde genel sağlık sigortalısı olmak için başvuruda bulunmayan yabancı uyruklu öğrencilere başka bir sağlık sigortası sağlanmaz. Üç aylık süre sonunda genel sağlık sigortalısı olmayanlar, özel sağlık sigortası yaptırmaları gerekebilir."
+  },
+  "mainHumanitarianResidencePermitItems": {
+    "title": "İnsani İkamet İzni",
+    "info1": "İkamet ettiği ülkedeki iç karışıklık veya savaştan kaçarak legal yollarla Türkiye Cumhuriyetine giriş yapan yabancı uyruklu vatandaşlara veya Türkiye Cumhuriyetinde kalması zorunlu olan yabancı uyruklu vatandaşlara en fazla bir yıla kadar kısa süreli ikamet izni verilebilir.",
+    "whoCanApply": "İnsani ikamet belgesi kimler için düzenlenebilir?",
+    "spouse": "Yabancı uyruklu eş’e.",
+    "minorChild": "Eşinin ya da kendinin erişkin olmayan yabancı uyruklu çocuğuna.",
+    "dependentChild": "Eşinin ya da kendinin bağımlı çocuğuna.",
+    "reasons": {
+      "title": "Gerekçeler",
+      "item1": "Çocuğun yüksek faydası söz konusu olduğunda.",
+      "item2": "Haklarında sınırdışı veya Türkiye Cumhuriyetine giriş yasağı yaptırımı kararı alındığı halde, yabancı uyruklu vatandaşların Türkiye Cumhuriyetinden çıkış yapmaları uygun görülmediğinde.",
+      "item3": "Müracat sahibinin ilk iltica ülkesi ya da güvenli diğer bir ülkeye geri yollanması işlemlerinin devamı sürecinde.",
+      "item4": "Acil sebeplerden ötürü veya ülke çıkarlarının korunması ile kamu düzeni ve kamu güvenliği amacıyla Türkiye Cumhuriyeti’ne girişine ve ikamet etmesine izin verilmesi gereken yabancı uyruklu vatandaşlara.",
+      "item5": "Olağanüstü durumlarda.",
+      "item6": "İnsani ikamet tezkeresi ve geçici süreli koruma altına alınmış olanlara uzun dönem ikamet hakkı tanınmamaktadır. Ayrıca insani ikamet tezkeresi alan yabancı uyruklu vatandaşlar, tezkere’nin veriliş tarihinden itibaren en geç yirmi iş günü içerisinde adres kayıt sistemine kayıt yaptırmak zorundadırlar."
+    }
+  },
+  "mainLongTermResidencePermitItems": {
+    "title": "Uzun Dönem İkamet İzni Nedir?",
+    "info1": "Uzun dönem ikamet izni için Türkiye Cumhuriyetinde kesintisiz olarak en az 8 (sekiz) yıl geçirmiş olmak yeterlidir. Başvuruda bulunabilmek için gerekli şartları sağlayan yabancı uyruklu vatandaşların yaşadıkları il ve ya ilçedeki yetkili makamlardan uzun dönem ikamet izni alabilmeleri mümkündür.",
+    "conditions": {
+      "title": "Uzun dönem ikamet izni için gerekli koşullar:",
+      "item1": "8 (sekiz) yıl boyunca aralıksız olarak Türkiye Cumhuriyetinde kalmış olmak.",
+      "item2": "Ülkede bulunduğu son 3 (üç) yıl içerisinde sosyal yardım almamış olmak.",
+      "item3": "Şahsın kendisinin ve varsa ailesinin geçimini sağlayabilecek gelir kaynağına sahip olmak.",
+      "item4": "Kamu ya da özel sağlık kuruluşlarından alınmış geçerli sağlık sigortalısı olmak.",
+      "item5": "Kamu güvenliği ve düzeni bakımından sorun teşkil etmeyeceğinden emin olmak."
+    },
+    "calculation": {
+      "title": "8 (Sekiz) yıllık süreç hesaplama:",
+      "description": "Koşullarda belirtildiği üzere sekiz yıllık sürecin hesaplanmasında, öğrenci ikameti ile geçirilen zamanın yarısı geri kalan tüm izinlerin tam zamanlı olarak alınmasıyla birlikte sekiz yıllık sürecin tamamlanması gereklidir."
+    },
+    "cancellation": {
+      "title": "Uzun dönem ikamet izninin iptal/red durumu:",
+      "reason1": "Sağlık, eğitim ya da vatandaşı olduğu ülkedeki zorunlu kamu hizmeti dışındaki bir amaçla kesintisiz olarak 1 (bir) yıldan fazla Türkiye Cumhuriyeti sınırlarının ötesinde bulunması sonucunda.",
+      "reason2": "Yabancı uyruklu vatandaşın kamu sağlığı, düzeni ve güvenliği açısından tehdit oluşturabilecek durumda olması",
+      "reapplication": "Reddedilen uzun dönem ikamet izni durumunda tekrar başvuru yapılır mı ?",
+      "reapplicationDetails": "Uzun dönem ikamet izni başvurusu iptal/red alan yabancı uyruklu vatandaşlar yurtdışında bulunan Türkiye Cumhuriyeti konsoloslukları ve yurtiçinde ise yabancı uyruklu vatandaşın bulunduğu ildeki yetkili kurumlarca usulüne uygun başvuru yapılabilmektedir. Tekrar edilen müracatlarda kesintisiz 8 (sekiz) yıl bulunma şartı aranmamaktadır."
+    }
+  },
+  "mainTouristResidencePermitItems": {
+    "title": "Turistik İkamet İzni",
+    "info1": "Turistik gezi amaçlı Türkiye Cumhuriyetinde kalmayı hedefleyen yabancı uyruklu vatandaşların, kaldıkları süre zarfında nerede, ne zaman ve ne kadar bir süre kalacaklarını belgeleyen belgeleri yetkili makamlara teslim etmeleri istenebilir.",
+    "info2": "2018 yılı itibariyle, turistik ikamet için adli sicil belgesi ve Türkiye Cumhuriyetinde kalacakları süre boyunca geçimlerini nasıl sağlayacaklarını gösteren belgeler yetkili makamlara sunulması gerekmektedir."
+  },
+  "mainShortTermResidencePermitItems": {
+    "title": "Kısa Dönem İkamet İzni",
+    "info1": "Türkiye Cumhuriyetine vize ya da vize muafiyeti belgesi ile giriş yapmış olan yabancı uyruklu vatandaşlar, başvuruda bulunmaları ve gerekli koşulları sağladıkları takdirde 1 (bir) yıla kadar kısa dönem ikamet izni alabilmektedirler. Kısa dönem ikamet izni alabilmeleri için vize ya da vize muafiyeti belgesi ile Göç ve İltica Bürolarına başvuru talebinde bulunarak randevu oluşturmaları ve randevu süresine kadar istenilen evrakların eksiksiz olarak hazırlanması gerekmektedir.",
+    "whoCanApply": "Kısa dönem ikamet izni kimler için düzenlenebilir?",
+    "tourism": "Turistik amaçla Türkiye Cumhuriyetine ziyaret gerçekleştirecek yabancı uyruklu vatandaşlara.",
+    "business": "İş görüşmesi, anlaşma, konferans, fuar veya eğitim gibi faaliyetler için Türkiye Cumhuriyetinde bulunması gereken yabancı uyruklu vatandaşlara.",
+    "sportingEvents": "Spor faaliyetleri için Türkiye Cumhuriyetine katılacak yabancı uyruklu vatandaşlara.",
+    "artist": "Sanatsal veya kültürel etkinliklere katılacak yabancı uyruklu vatandaşlara.",
+    "education": "Kısa dönem eğitimler için Türkiye Cumhuriyetine giriş yapacak yabancı uyruklu vatandaşlara.",
+    "info2": "Kısa dönem ikamet izni alacak olan yabancı uyruklu vatandaşların; pasaport, vize veya vize muafiyeti belgesi, ikamet izni başvuru formu, Türkiye Cumhuriyeti sınırları içerisinde konaklayacakları yeri gösterir belge, adli sicil belgesi ve sağlık sigortası belgesi gibi belgeleri ibraz etmeleri gerekmektedir.",
+    "validityPeriod": "Kısa dönem ikamet izni kaç gün süreyle geçerlidir?",
+    "singleEntry": "Vize ya da vize muafiyeti belgesi ile giriş yapmış olan yabancı uyruklu vatandaşlar, Türkiye Cumhuriyetinde en fazla 90 gün süreyle ikamet izni alabilirler.",
+    "multipleEntry": "Birden fazla giriş izni olan vize veya vize muafiyeti belgesi ile giriş yapmış olan yabancı uyruklu vatandaşlar, Türkiye Cumhuriyetinde en fazla 180 gün süreyle ikamet izni alabilirler."
+  },
+  "mainForeingHealthInsuranceItems": {
+    "insuranceTitle": "Yabancı Sağlık Sigortası",
+    "insuranceDescription": "Yabancı sağlık sigortası, yurt dışında seyahat ederken sağlık hizmetlerine erişim sağlamak için önemlidir. Bu sigorta türü, beklenmedik sağlık sorunları veya kazalar durumunda tıbbi masrafları karşılamaya yardımcı olabilir.",
+    "insuranceBenefits": "Yabancı sağlık sigortası sağlayabileceği bazı temel faydalar şunlardır:",
+    "benefit1": "Acil tıbbi yardım",
+    "benefit2": "Tıbbi nakil masrafları",
+    "benefit3": "Hastalık veya kaza sonucu hastanede kalma masrafları",
+    "insuranceCoverage": "Yabancı sağlık sigortası genellikle aşağıdaki konuları kapsar:",
+    "coverage1": "Acil ve beklenmedik sağlık sorunları",
+    "coverage2": "Hastaneye yatışlar",
+    "coverage3": "Ameliyatlar ve tedaviler",
+    "howToGetInsurance": "Yabancı sağlık sigortası nasıl alınır?",
+    "stepsToGetInsurance": "Yabancı sağlık sigortası almak için izlemeniz gereken temel adımlar şunlardır:",
+    "step1": "Güvenilir bir sigorta şirketi seçin.",
+    "step2": "Sigorta planınızı seçin ve başvurun.",
+    "step3": "Sigorta poliçenizi aldıktan sonra, seyahatiniz sırasında acil durumlar için gerekli olan bilgileri ve belgeleri yanınızda bulundurun."
+  },
+  "mainFooterItems": {
+    "contactInfo": {
+      "title": "İletişim bilgileri",
+      "address": "Adres: Pirebi Mahallesi Söylemez Sokak 12/D Meram/KONYA",
+      "phone": "Telefon: +90 507 911 74 83",
+      "email": "E-posta: holatercume@gmail.com"
+    },
+    "aboutInfo": {
+      "title": "Hakkımızda",
+      "description": "Biz, yabancı ikamet izni ve sağlık sigortası konusunda uzmanlaşmış bir firmayız."
+    },
+    "quickLinks": {
+      "title": "Hızlı Erişim",
+      "home": "Ana Sayfa",
+      "services": "Hizmetler",
+      "faq": "SSS",
+      "contact": "İletişim"
+    },
+    "socialMedia": {
+      "title": "Sosyal Medya",
+      "facebook": "Facebook",
+      "instagram": "Instagram"
+    }
+  },
+  "footer": {
+    "allRightsReserved": "Tüm hakları saklıdır.",
+    "privacyPolicy": "Gizlilik Politikası",
+    "termsOfUse": "Kullanım Şartları"
+  },
+  "privacyPolicy": {
+    "lastUpdated": "Son güncelleme tarihi: [01.07.2024]",
+    "title": "Gizlilik Politikası",
+    "intro": "Hola Global olarak, müşteri gizliliğini korumayı taahhüt ediyoruz. Bu gizlilik politikası, Hola Global'in web sitesi üzerinden topladığı bilgileri ve bu bilgilerin nasıl kullanıldığını açıklamaktadır.",
+    "collectedInformation": {
+      "title": "Toplanan Bilgiler",
+      "content": "Web sitemizi ziyaret ettiğinizde veya bizimle etkileşimde bulunduğunuzda, aşağıdaki türde bilgileri toplayabiliriz:",
+      "personalInfo": {
+        "title": "Kişisel Bilgiler",
+        "content": "İsim, e-posta adresi, telefon numarası gibi doğrudan sizi tanımlayan bilgiler."
+      },
+      "cookies": {
+        "title": "Çerezler ve İzleme Teknolojileri",
+        "content": "Web sitesi kullanımı hakkında anonim bilgiler toplamak için kullanılan çerezler ve benzeri teknolojiler."
+      }
+    },
+    "useOfInformation": {
+      "title": "Bilgi Kullanımı",
+      "content": "Topladığımız bilgileri aşağıdaki amaçlarla kullanabiliriz:",
+      "purposes": {
+        "content1": "Sunduğumuz hizmetleri sağlamak ve yönetmek.",
+        "content2": "Web sitesini geliştirmek ve kişiselleştirmek.",
+        "content3": "Sizinle iletişim kurmak, size bilgi göndermek ve pazarlama amaçlı bildirimlerde bulunmak."
+      }
+    },
+    "sharingOfInformation": {
+      "title": "Bilgi Paylaşımı",
+      "content": "Hola Global, topladığı bilgileri yasal zorunluluklar veya işbirliği yaptığı üçüncü taraflarla paylaşabilir. Ancak, müşteri gizliliğini koruma konusundaki taahhütlerimiz çerçevesinde, bu bilgileri asla ticari amaçlarla satmayacak veya kiralamayacaktır."
+    },
+    "security": {
+      "title": "Güvenlik",
+      "content": "Hola Global, toplanan bilgilerin güvenliğini sağlamak için uygun teknik ve organizasyonel önlemleri alır. Ancak, internet üzerinden bilgilerin iletimi veya saklanması her zaman tam güvenlik garantisi sağlamayabilir."
+    },
+    "cookies": {
+      "title": "Çerezler",
+      "content": "Web sitemizi kullanırken çerezleri kabul etmiş sayılırsınız. Daha fazla bilgi edinmek veya çerez tercihlerinizi değiştirmek için [Çerez Politikamızı](/cookies) ziyaret edebilirsiniz."
+    },
+    "changes": {
+      "title": "Değişiklikler",
+      "content": "Bu gizlilik politikası zaman zaman güncellenebilir. Güncellemeler web sitemizde yayımlandıktan sonra yürürlüğe girer. Politikanın en son güncelleme tarihini her zaman belirgin bir şekilde göstereceğiz."
+    },
+    "contact": {
+      "title": "İletişim",
+      "content": "Gizlilik politikamızla ilgili sorularınız veya geri bildiriminiz için lütfen bizimle iletişime geçin."
+    }
+  },
+  "termsOfUse": {
+    "title": "Kullanım Şartları",
+    "lastUpdated": "Son güncelleme tarihi: [Tarih]",
+    "intro": "Hola Global olarak, web sitemizi kullanırken lütfen aşağıdaki kullanım şartlarını dikkatlice okuyunuz ve kabul ediniz.",
+    "sections": {
+      "websiteUsage": {
+        "title": "Web Sitesi Kullanımı",
+        "content": "Web sitemizi kullanarak, bu kullanım şartlarını kabul etmiş olursunuz. Kullanım şartlarına uygun olmayan herhangi bir kullanım yasaktır."
+      },
+      "serviceTerms": {
+        "title": "Hizmet Şartları",
+        "content": "Sunulan hizmetlerimizi kullanırken, ilgili hizmet şartlarına ve politikalarına uymayı kabul etmiş olursunuz."
+      },
+      "disclaimer": {
+        "title": "Sorumluluk Reddi",
+        "content": "Hola Global, web sitesi kullanımı veya sunulan hizmetlerden kaynaklanan herhangi bir kayıp veya zarardan sorumlu değildir."
+      },
+      "changes": {
+        "title": "Değişiklikler",
+        "content": "Bu kullanım şartları zaman zaman güncellenebilir. Güncellemeler web sitemizde yayımlandıktan sonra yürürlüğe girer."
+      },
+      "contact": {
+        "title": "İletişim",
+        "content": "Kullanım şartları ile ilgili sorularınız veya geri bildiriminiz için lütfen bizimle iletişime geçin."
+      }
+    }
+  },
+  "languageSelector": {
+    "label": "Dil Seçiniz"
+  },
+  "faq": {
+    "mainTitle": "Sıkça Sorulan Sorular",
+    "residence": {
+      "1": {
+        "title": "T.C. vatandaşıyla evli kişiler ihlal durumlarında ikamet izni başvurusu yapabilir mi?",
+        "content": "  Türkiye Cumhuriyeti vatandaşı ile evli olan yabancı uyruklu kişi; 90 güne kadar vize ihlali, süresiz ikamet izni ihlalinde bulunması halinde mümkünse çıkış yapmaya bunun mümkün olmaması halinde İlgili İlin Göç İdaresine yönlendirilmesi gerekmektedir."
+      },
+      "2": {
+        "title": "2 yıl X üniversitesinde eğitim gördüm. Daha sonra Y üniversitesini kazandım/yatay geçiş yaptım. İzlemem gereken prosedür nedir?",
+        "content": "Aynı öğretim kurumunda fakülte veya bölüm değişikliği ile aynı ilde öğretim kurumu değişikliği durumunda öğrenciliğe ara verilmemesi ve süresinde bildirimde bulunulması kaydıyla mevcut ikamet izni geçerliliğini korur. Bu yabancılar bulundukları il göç idaresi müdürlüğüne 20 iş günü içerisinde bölüm/fakülte/okul değişikliğini bildirmelidir. İkamet izni öğrenim süresinden kısa ise iznin bittiği tarihten itibaren öğrenim süresi kadar uzatılır. Farklı bir ilde öğrenime devam edilecek olması durumunda öğrenime devam edilecek il valiliğince mevcut ikamet izni kesilerek yeni öğrenim süresi kadar ikamet izni düzenlenir."
+      },
+      "3": {
+        "title": "90 günlük değerlendirme süreci içerisinde yurt dışına çıkmak mümkün müdür?",
+        "content": "İlk başvuruda bulunan yabancılara randevu gününde il göç idaresi müdürlüğü tarafından ikamet izni müracaat belgesi düzenlenmektedir. Uzatma başvurularında müracaat belgesi sistem tarafında otomatik olarak düzenlenir. Bu belgenin il göç idaresi müdürlüğü tarafından onaylanması gerekmektedir. Bu müracaat belgesi ve harç makbuzlarının onaylı örnekleri kişilere her defasında 15 gün içerisinde dönmek şartıyla çoklu çıkış-giriş hakkı sağlamaktadır."
+      },
+      "4": {
+        "title": "Aile ikamet iznine başvuracağım adli sicil kaydını tüm aile fertleri için mi getireceğim?",
+        "content": "Aile ikamet izni başvurularında adli sicil kaydı destekleyici olacak şahıs için istenmektedir. İdare her zaman destekleyici belge isteme hakkına sahiptir."
+      },
+      "5": {
+        "title": "Apostil Şerhi nedir?",
+        "content": "Apostil şerhi bir belgenin geçerliliğinin tasdik edilerek başka bir ülkede yasal olarak kullanılmasını sağlayan belge onay sistemidir."
+      },
+      "6": {
+        "title": "Apostil Şerhini nereden alabilirim?",
+        "content": "Apostil anlaşmasına taraf bir ülke vatandaşı iseniz belgeyi teslim aldığınız ülke makamlarınızdan talep etmeniz gereklidir. (Apostil Anlaşmasına taraf ülkeler listesi Adalet Bakanlığının sitesinde yer almaktadır.)"
+      },
+      "7": {
+        "title": "Apostil Şerhli bir belge ayrıca onaylatılması gerekiyor mu?",
+        "content": "Türk Kurumlarında kullanılabilmesi için yeminli Türkçe tercümesinin noter tarafından onaylatılması gerekmektedir."
+      },
+      "8": {
+        "title": "Arkadaşımda kalacağım, bana yanında kalacağım konusunda taahhütname verebilir mi?",
+        "content": "3. kişinin (akraba dışında) yanında kalınacak olması halinde yanında kalınan kişinin noter onaylıtaahhüdü (yanında kalınan kişinin evli olması halinde ayrıca eşinin de noter onaylı taahhüdü) aranır."
+      },
+      "9": {
+        "title": "Çocuğuma aile ikamet izni mi almam gerekiyor?",
+        "content": "Şartlarını taşıması taktirinde destekleyici kendisinin veya eşinin yabancı çocuğu veya 18 yaşını doldurmuş olsa bile kendisinin veya eşinin bağımlı çocuğu için Aile ikamet izni başvurusunda bulunma hakkına sahiptir. Aile ikamet izni şartları taşınmıyor ise amaçlarına uygun farklı bir ikamet izni için başvuruda bulunabilirler. Değerlendirme İl Göç İdaresi Müdürlüğü tarafından yapılmaktadır."
+      },
+      "10": {
+        "title": "Değerlendirme sürecindeyken, müracaat belgesiyle çıkış yapıp on beş günden fazla yurtdışında kalırsam herhangi bir yaptırımı olur mu?",
+        "content": "On beş günlük sürenin aşılması halinde vize genel hükümlerine göre işlem yapılır. 10'uncu madde gereğince yüz seksen günde doksan gün kalma hükmü saklıdır."
+      },
+      "11": {
+        "title": "e-Devletten alınan belgeler ikamet izni başvurularında geçerli midir?",
+        "content": "e-Devlet üzerinden temin edilen resmî kurumlarda kullanılabilir ibareli belgeler kabul görecektir."
+      },
+      "12": {
+        "title": "e-İkamet başvuru formunda sigorta bilgileri girilirken 18 yaş altı ve 65 yaş üstü için sigorta mecburiyeti olmamasına rağmen sigorta bilgileri sormaktadır. Bu alan nasıl doldurulmalıdır?",
+        "content": "Kısa dönem ve öğrenci ikamet izinlerinde e-İkamet sisteminde sigorta türünde 18 yaş altı ve 65 yaş üstü olanlar seçeneği seçilmelidir. Aile ikamet izninde destekleyicinin tüm aile bireylerini kapsayan geçerli bir sağlık sigortası yaptırması şarttır. Ebeveynlerinden bağımsız geliri yada mal varlığı olmayan 18 yaşından küçük yabancıların uzun dönem ikamet izni alma imkanı bulunmamaktadır. 65 yaş üstü kişilerin ise uzun dönem ikamet izinlerinde sigorta yaptıramadıklarına dair belge getirmeleri yeterlidir."
+      },
+      "13": {
+        "title": "Eksik belge için kaç gün süre verilir?",
+        "content": "Eksik belgelerin tamamlanabilmesi için idarece 30 güne kadar süre verilebilir. Eksik belgelerinizi belirlenen süre zarfında tamamlamamanız halinde başvurunuz işlemden kaldırılacaktır."
+      },
+      "14": {
+        "title": "Evli iki yabancı aile ikamet izni alabilir mi?",
+        "content": "Evli iki yabancının aile ikamet izni müracaatında bulunmak istemesi halinde, (ülkemizde en az bir yıl ikamet izni ile kalmış olması veya çalışma izni olması kaydıyla) yabancılardan birinin diğerine destekleyici olması gerekeceğinden, bu yabancılara aynı anda aile ikamet izni düzenlenme imkânı bulunmamaktadır. Ancak destekleyici olma şartını sağlayan yabancı destekleyici olabilir."
+      },
+      "15": {
+        "title": "Farklı bir ikamet izni türüne geçiş için uzatma başvurusu yapabilir miyim?",
+        "content": "Yabancılar, ikamet izninin verilmesine esas olan gerekçenin sona ermesi veya farklı bir gerekçenin ortaya çıkması hâlinde, yeni kalış amacına uygun ikamet izni talebinde bulunabilir. Geçiş başvurusu olarak yapılması gerekmektedir."
+      },
+      "16": {
+        "title": "Geçerlilik süresi sona ermiş pasaport ile ikamete başvuruda bulunabilir miyim?",
+        "content": "İkamet izni için başvuracak yabancılarda, talep ettikleri ikamet izni süresinden altmış gün daha uzun süreli pasaport ya da pasaport yerine geçen belgeye sahip olmaları şartı aranır. Dolayısıyla geçerlilik süresi sona ermiş pasaport ile ikamet izni başvurusu yapılamaz. (e-İkamet sisteminden süresi geçmiş pasaport ile ikamet izni müracaatında bulunulabilir. Geçerlilik süresine yeni pasaportunuzun geçerlilik süresini yazabilirsiniz. Ancak yabancının ikamet izni değerlendirilirken talep ettikleri ikamet izni süresinden altmış gün daha uzun süreli pasaport ya da pasaport yerine geçen belgeye sahip olmaları şartı aranır.)"
+      },
+      "17": {
+        "title": "İkamet izni almak için bankada ne kadar param olması gerekir?",
+        "content": "Kısa dönem ve öğrenci ikamet izinlerinde idarece bilgi ve belge talep edilmedikçe yabancının beyanı yeterlidir. Aile ikamet izninde destekleyicinin, toplam miktarı asgari ücretten az olmamak üzere ailedeki fert başına asgari ücretin üçte birinden az olmayan gelirinin olması şarttır. Uzun dönem ikamet izninde ise yeterli ve düzenli bir gelirinizin olması gerekmektedir. Yeterli ve düzenli bir gelirin tespitinde ise aylık asgari ücret tutarında gelirinizin olması kabul edilebileceği gibi, gelir getiren bir taşınmazınızın bulunması, banka hesabınızda ülkemizde geçiminizi sağlamaya yeteceğine kanaat sağlayan paranızın bulunması gibi durumlar da kabul edilebilmektedir."
+      },
+      "18": {
+        "title": "İkamet izni başvuruları ne kadar sürede sonuçlandırılır?",
+        "content": "İkamet izni başvuruları, başvurunun işleme alınmasından itibaren en geç doksan gün içinde sonuçlandırılır. Doksan günlük süre, bilgi ve belgelerin tam olarak yetkili makama teslim edildiği tarihten başlar. Sürenin uzaması halinde yabancıya bilgi verilir."
+      },
+      "19": {
+        "title": "İkamet izni başvurularında idare tarafından maddi gelir olarak hangi belgeler istenebilir?",
+        "content": "Emekli tanıtım kartı ve emekli aylığı tahsis belgesi, banka hesap cüzdanı, uluslararası kredi kartı, üzerinde haciz bulunmadığı ibaresini içeren güncel onaylı gelir belgesi, kaşeli imzalı şirket yazısı, banka mevduat gelirini gösteren belge, kalacağı süre için bankada tutulan meblağı belirten belge, kira geliri söz konusu ise gayrimenkulün tapusu ve 2 yıldan eski olmayan kira kontratı, serbest meslek sahipleri için; sahibi ya da ortağı olunan firmaya ilişkin vergi levhası fotokopisi, ticaret sicil gazetesi, imza sirküleri, son 3 yıla ait vergi dairesi ya da yeminli mali müşavirlik onaylı bilanço ve gelir tablosu, cari yıl mizanı, Esnaf ve Sanatkarlar Odasına kayıt belgesi ya da faaliyet belgesi istenebilir. Gelir beyanını gösteren belgenin yurt dışından temin edilmesi halinde yeminli tercüman vasıtasıyla Türkçe tercümesinin noter onaylı örneği getirilmelidir."
+      },
+      "20": {
+        "title": "İkamet izni başvurum için pasaport sürem ne kadar olmalıdır?",
+        "content": "Talep edilen süreden en az 60 gün daha uzun süreli pasaport ya da pasaport yerine geçen seyahat belgesi sahibi olmanız gereklidir."
+      },
+      "21": {
+        "title": "İkamet izni başvurum reddedildi, nasıl bir yol izlemem gerekmektedir? Tekrar başvuru yapabilir miyim?",
+        "content": "İkamet izni talebinin reddi, iznin uzatılmaması veya iptali, yabancıya ya da yasal temsilcisine veya avukatına tebliğ edilir. Tebligatta, yabancının karara karşı itiraz haklarını etkin şekilde nasıl kullanabileceği ve bu süreçteki diğer yasal hak ve yükümlülükleri de yer alır. Ayrıca ikamet izni başvurusunun reddedilmesi halinde 6 ay içerisinde aynı kalış amacıyla başvuru yapılamamaktadır. Yasal süreniz devam etmekteyse farklı bir kalış amacıyla başvuruda bulunabilirsiniz."
+      },
+      "22": {
+        "title": "İkamet izni başvurusunda bulunan ancak ikamet izni kartı gelmeyen yabancıların yurt dışına çıkış yapabilmesi mümkün müdür?",
+        "content": "İkamet izni için müracaat ettikten sonra, ikamet izni belgesinin çıkmasını beklemeden tekrar dönmek üzere kısa süreliğine Türkiyeden ayrılacak yabancılar, talep ettikleri ikamet izni süresinin içinde olmak ve harç makbuzlarını (harçtan muaf olduğu belgede belirtilenler hariç olmak üzere) ibraz etmek kaydıyla ikamet izni müracaat belgeleriyle sınır kapılarından çıkışta cezalı ikamet harcı ödemeden ülkeden çıkış; on beş (15) gün içinde döndükleri takdirde de vizeye tabi ülke vatandaşları olsalar dahi vize almadan ülkeye giriş yapabileceklerdir. Müracaat Belgesi her defasında 15 günden fazla yurt dışında kalmamak kaydıyla çoklu çıkış-giriş hakkı sağlamaktadır."
+      },
+      "23": {
+        "title": "İkamet izni başvurusunda bulundum, süresi hangi tarihten itibaren başlatılır?",
+        "content": "İkamet izni, vize ya da vize muafiyeti süresinin sona erdiği tarihten, talep halinde müracaat tarihinden itibaren başlatılır. Süresi uzatılan ikamet izni, önceki izin süresinin sona erdiği tarihten itibaren başlar."
+      },
+      "24": {
+        "title": "İkamet izni belgelerinde fotoğraf bulunmakta mıdır?",
+        "content": "İkamet izni belgenizde yer alacak fotoğrafınızın son 6 ay içinde çekilmiş, fonu beyaz ve biyometrik olması gerekmektedir. Ayrıca 4 adet örneği randevu tarihinde istenmektedir."
+      },
+      "25": {
+        "title": "İkamet izni harç ve kart bedelimi ne zaman ödemeliyim?",
+        "content": "İkamet izni ilk başvurularında, geçiş başvurularında ve uzatma başvurularında harç ve kart bedeli randevu tarihinden önce ödenmelidir."
+      },
+      "26": {
+        "title": "İkamet İzni için başvuru yaptım, ancak forma yeniden erişim sağlayamıyorum?",
+        "content": "Daha önce sisteme girerken pasaport numaranızı nasıl yazdıysanız o şekilde yazmanız gerekir. Başvuru numarası, iletişim tercihiniz ve de pasaport numaranızı ( veya Yabancı Kimlik Numarası) girerek erişim sağlamayı denemelisiniz."
+      },
+      "27": {
+        "title": "İkamet izni kartının kaybolması/çalınması durumlarında ne yapılmalıdır?",
+        "content": "İkamet izni kartının kaybolması, çalınması, hatalı olması veya yıpranması hallerinde ikamet izni belgesi yeniden düzenlenir. İkamet izin belgesinin kaybolması, çalınması veya yıpranması hâllerinde ikamet izin belgesinin ücreti tam; bu iznin harcı ise yarım harç olarak alınır. Karakol aracılığıyla kayıp tutanağı tutturulmalıdır. Sonra kayıp tutanağı, biyometrik fotoğraf ve adres kayıt sistemine kayıtlı olunduğunu gösteren belge ile beraber ikamet edilen ildeki İl Göç İdaresi Müdürlüğüne gidilmelidir."
+      },
+      "28": {
+        "title": "İkamet izni süresince iaşe, ibate veya sağlığa ilişkin giderlerim kamu kurumlarınca karşılanıyorsa ikamet izni başvurusunda ne yapmam gerekir?",
+        "content": "İkamet izni süresince barınma, iaşe veya sağlığa ilişkin giderleri ilgili kamu kurum ve kuruluşlarınca karşılanan yabancılardan maddi imkânın tespiti ile geçerli sağlık sigortası şartı aranmaz. Gerektiğinde ilgili hastaneden veya kamu kurum ve kuruluşundan yabancının tedavisine ilişkin bilgi veya belge istenebilir."
+      },
+      "29": {
+        "title": "İkamet iznim varken yurt dışına çıktım, yurt dışından ikamet iznine başvurabilir miyim?",
+        "content": "İkamet izni başvuruları henüz yurt dışından alınmamaktadır. Yurt dışında bulunduğu sürede ikamet izni süresi biten yabancılar, iki ülke arasındaki vize rejimine göre ülkemize giriş yaptıktan sonra elektronik ortamda ikamet iznine başvurabileceklerdir. Ayrıca yabancının yasal temsilcisi veya vekâletnameye haiz avukatı aracılığıyla da yapılabilir. Ancak bu durumda 6458 sayılı Kanunun 97'nci maddesine istinaden yabancının da başvuruda hazır bulunması istenebilir."
+      },
+      "30": {
+        "title": "İnsani ikamet iznine nasıl başvuru yapabilirim?",
+        "content": "İnsani ikamet izni diğer ikamet izinlerinin verilmesindeki şartlar aranmadan, Bakanlığın onayı alınması ve en fazla birer yıllık sürelerle olmak kaydıyla, valiliklerce verilmektedir. Başvuruların bizzat İl Göç İdaresi Müdürlüklerine yapılması gerekmektedir"
+      },
+      "31": {
+        "title": "K.K.T.C vatandaşlarına düzenlenecek ikamet izni süresi ne kadardır?",
+        "content": "6458 YUKK 31. madde kapsamında KKTC vatandaşlarına 5 yıllık süreler ile ikamet izni düzenlenebilir."
+      },
+      "32": {
+        "title": "Kısa dönem ikamet izne başvuru yapmak istiyorum iki yıl süre talep edebilirim fakat sağlık sigortaları 1 yıl geçerlidir bu durumda ne yapabilirim?",
+        "content": "Yapılacak olan sağlık sigorta şirketinin 1+1 yıllık sigorta yapması halinde 2 yıl ikamet izni talebinde bulunulabilir yada 2 yıllık Genel Sağlık Sigortası yaptırılabilir."
+      },
+      "33": {
+        "title": "Kısa dönem ikamet izni bulunan yabancıların ne kadar süreyle yurt dışında kalmaları halinde ikamet izinleri iptal edilmektedir?",
+        "content": "Kısa dönem ikamet izni için yurt dışında geçirilecek süre kısıtlaması uygulaması 13.08.2016 tarihinde Resmî Gazete'de yayınlanan 6735 sayılı Uluslararası İşgücü Kanunu çerçevesinde kaldırılmıştır. Bu tarihten önce bu ikamet izni türüne göre kalınmış olan süreler ve varsa ihlal durumu geçerli olacaktır."
+      },
+      "34": {
+        "title": "Kısa dönem ikamet izni ne kadar süre için verilir?",
+        "content": "Kısa dönem ikamet izinleri kural olarak en fazla 2 yıl olacak şekilde verilebilmektedir. İkamet iznin düzenlenmesinde sürenin tayini idarenin takdirindedir. Ayrıca kısa dönem ikamet izni Türkiye’de çalışmayan ancak Bakanlar Kurulunca belirlenecek kapsam ve tutarda yatırım yapacaklar ile bunların yabancı eşi, kendisinin ve eşinin ergin olmayan veya bağımlı yabancı çocuğuna; Kuzey Kıbrıs Türk Cumhuriyeti vatandaşlarına en fazla 5 yıllık sürelerle verilebilir."
+      },
+      "35": {
+        "title": "Mevcut ikamet izni süremde adres değişikliğinde bulundum, ne yapmam gerekiyor? Bu adres farklı bir il ise ikamet iznim iptal olur mu?",
+        "content": "İkametgâhlarını ikamet izni aldıkları ilden başka bir ildeki adrese taşıyan yabancılar, taşındıkları ilde ikamet etmek üzere yeni bir ikamet izni almak amacıyla en geç 20 iş günü içinde başvuruda bulunurlar. Bu işlemde, ikamet izin türü değişmiyorsa yeni bir ikamet izin belgesi düzenlenmekle birlikte, harcı ödenmiş olan süre, tekrar harca tabi tutulmaz. İkametgâh adresinizi bulunduğunuz il sınırları içerisinde başka bir adrese taşıdı iseniz 20 iş günü içerisinde yeni adresinizi bulunduğunuz il göç idaresi müdürlüğüne bildirmeniz yeterlidir. Bu durumda yeni bir ikamet izni belgesi düzenlenemeyecek olup mevcut ikamet izin belgenizle ülkemizde kalmaya devam edebilirsiniz."
+      },
+      "36": {
+        "title": "Mevcut ikamet izninin uzatılması için ne zaman başvuruda bulunulması gerekmektedir?",
+        "content": "Uzatma başvuruları, ikamet izni süresinin dolmasına 60 gün kalmasından itibaren ve her koşulda ikamet izni süresi dolmadan once yapılır."
+      },
+      "37": {
+        "title": "Online ödeme gerçekleştirdim makbuzlarımı nereden alabilirim?",
+        "content": "Online ödemelerde bir sefere mahsus çıktıyı “Alındıyı İndir (PDF)” sekmesinden alabilir. Alınamadıysa eğer “ https://spos.gib.gov.tr/Spos/Sorgu” sayfasından tahakkuk numarası ile ödeme çıktısı alınabilir."
+      },
+      "38": {
+        "title": "Öğrenci ikamet izinlerinde harç alınmakta mıdır?",
+        "content": "Türk okul veya fakültelerinde okuyan öğrencilere ikamet izni harçsız olarak düzenlenir. Bu okullar dışında kalan konsolosluk, büyükelçilik okulları ve uluslararası okullar gibi Türk okulu sayılmayan okulların öğrencilerinden ikamet izni harcı alınır."
+      },
+      "39": {
+        "title": "Öğrenci ikamet iznim var. Türk vatandaşı ile evlendim. İkamet iznimin türünü değiştirmeme gerek var mı? Şartlarını sağlıyorsam aile ikamet izni alabilir miyim?",
+        "content": "Öğrenci ikamet iznine sahip olan yabancının aile ikamet izni alma koşullarının ortaya çıkması ve başvurması halinde, bu kişiye aile ikamet izni düzenlenebilir. Ayrıca öğrenci ikamet izni koşullarını taşımaya devam ettiği sürece öğrenci ikamet izninin sağladığı haklardan aynen yararlanır. Yabancı dilerse öğrenci ikamet izniyle de yasal kalışına devam edebilir."
+      },
+      "40": {
+        "title": "Öğrenci ikamet iznimin süresi bitmeden çok önce mezun oldum. İkamet iznim devam eder mi, nasıl bir yol izlemeliyim?",
+        "content": "Mezun olan öğrencilerin ikamet izinleri mezuniyet tarihi itibarıyla kesilir ve 10 gün içinde yeni kalış amacına uygun ikamet izni için başvuruda bulunması gerekir. Normal eğitim süresinde mezun olamayan öğrencinin ikamet izni en fazla birer yıllık sürelerle ve azami eğitim süresini aşmayacak şekilde uzatılır."
+      },
+      "41": {
+        "title": "Özel öğrencilik, açık öğretim veya uzaktan eğitim gerekçesiyle ikamet iznine başvuruda bulunmak isteyen yabancılar hangi ikamet türüne başvuruda bulunabilirler?",
+        "content": "Özel öğrencilik, açık öğretim veya uzaktan eğitim gerekçesiyle öğrenci ikamet izni verilmez. Şartlarını taşıdığınız diğer ikamet izni türlerinden birine başvurmanız gerekmektedir."
+      },
+      "42": {
+        "title": "Pasaport değişikliği gerçekleştirildiği taktirde bildirimde bulunmak gerekir mi?",
+        "content": "Pasaport değişikliği yapan yabancıların 20 iş günü içerisinde valiliğe (İl Göç İdaresi Müdürlüğüne) bildirilmesi gerekmektedir."
+      },
+      "43": {
+        "title": "Randevu günümde il göç idaresi müdürlüğüne gidemezsem bir yaptırımı var mıdır?",
+        "content": "Başvurunuz işleme alınmaz. Yasal süreniz devam ediyor ise yeni bir randevu alarak randevunuza katılabilirsiniz. Yasal süreniz sona ermiş ve ilk başvuru yapmış iseniz vize ihlalinden, uzatma başvurusu yapmış iseniz ikamet izni ihlalinden hakkınızda işlem yapılır."
+      },
+      "44": {
+        "title": "Randevu tarihinden önce vize/ikamet sürem bitmiş oluyor, sorun olur mu?",
+        "content": "Randevu tarihinden önce vize ve ikamet izni süresi biten yabancılar, başvuru formu ile randevu gününe kadar ülkemizde kalışınıza izin verilir."
+      },
+      "45": {
+        "title": "Şartlı giriş ile Türkiye’ye giriş yapan yabancıların ikamet izni başvurusu için ne kadar süresi bulunmaktadır?",
+        "content": "Şartlı giriş yaptığınız takdirde 10 gün içinde www.goc.gov.tr adresinde bulunan e-İkamet sekmesinden ikamet izni için başvurmanız gerekmektedir ."
+      },
+      "46": {
+        "title": "Taşınmaz üzerinden ailemle birlikte ikamet izni alabilir miyiz?",
+        "content": "Taşınmazı bulunan yabancı tarafından yapılan ikamet izni başvurularında; taşınmazın konut olması ve bu amaçla kullanılması gerekir. Aile üyelerinin konut üzerinde paylı veya elbirliğiyle mülkiyet hakkına sahip olmaları durumlarında, aile üyeleri de bu bent kapsamında ikamet iznine başvurabilir."
+      },
+      "47": {
+        "title": "Temel eğitim ve ortaöğretimde öğrenim göreceklerin ikamet izni alma prosedürü nasıldır?",
+        "content": "Ülkemizde aile ikamet izni ile kalan yabancı çocuklar öğrenim haklarından faydalanabilirler. Bu yabancıların ayrıca başka bir ikamet izni almalarına gerek yoktur. Anne/babası yanında bulunmayan ve öğrenci ikamet izni alacak 18 yaşından küçük çocuklardan ikamet izni başvurularında her durumda muvafakat belgesi, doğum belgesi ve taahhüt belgesi istenilmektedir. Bununla birlikte amacına uygun vize şartı ilk ve ortaöğrentim seviyesinde öğrenim görecek yabancılardan istenilmeye devam edilmektedir. Öte yandan bu kapsamdakilere verilecek ikamet izinleri bir eğitim-öğretim yılının başlangıcından diğer eğitim-öğretim yılının başlangıcına kadar birer yıllık sürelerle düzenlenmektedir. (Kamu kurum ve kuruluşları aracılığıyla gelerek Türkiye'de öğrenim görecek yabancılara öğrenim süresince ikamet izni verilebilir.)"
+      },
+      "48": {
+        "title": "Türkçe öğrenme kursuna kayıt oldum. İkamet izni prosedürleri nasıldır?",
+        "content": "Doğrudan Türkçe öğrenme kursuna kayıt olmanız durumunda ülkemize Türkçe dil kursu vizesi veya öğrenim vizesi ile gelmiş olmanız kaydıyla kısa dönem ikamet izni alabilirsiniz. Bununla birlikte bu izin yalnızca 2 defa verilebilmektedir. Üniversiteye kaydolup üniversiteniz tarafından TÖMER’e yönlendirilmişseniz durumunuzu belgelemeniz kaydıyla bir sonraki eğitim öğretim döneminin başlangıcına kadar Öğrenci İkamet İzni düzenlenmektedir. Öğrenim amaçlı vize alarak ülkemize gelen ancak Türkçe seviyesi yeterli olmadığı için üniversiteye kayıt yaptırmayıp Türkçe öğrenme kursuna yönlendirilen yabancı öğrencilerden şartlarını taşıyanlara kısa dönem ikamet izni verilebilmektedir."
+      },
+      "49": {
+        "title": "Türkiye’de doğmuş yabancı uyruklu çocuklar için izlenmesi gereken süreç nedir?",
+        "content": "Hastanede düzenlenen doğum belgesiyle ebeveylerinin yasal süresine bağlı olarak Türkiye’de 6 ay kalabilir. Bu süre içinde pasaport alınarak doğum tarihinden başlatmak kaydıyla ikamet izni başvurusu yapılmalıdır. Hastane dışında doğan çocuklar için muhtarlıktan düzenlenecek belge alınması gerekmektedir."
+      },
+      "50": {
+        "title": "Türkiyede doğan yabancı bebeğin ikamet izni alabilmesi için nasıl bir yol izlemeliyiz?",
+        "content": "Türkiye’de doğan yabancı çocuklar, seyahat belgesi düzenlenip ikamet izni başvurusu yapılana kadar doğum belgeleriyle anne veya babanın geçerli ikamet izni süresine bağlı olarak Türkiye’de kalabilirler. Doğum belgesi tek başına Türkiye’ye giriş ve Türkiye’den çıkış hakkı vermez. Bu çocuklar için yüz seksen gün içinde durumlarına uygun ikamet izni alınması zorunludur. İkamet izni, çocuğun doğum tarihinden itibaren geçerli olacak şekilde düzenlenir"
+      },
+      "51": {
+        "title": "Türkiyede vatansız statüsü ile kalıyorum, ikamet izni başvurusunda bulunabilir miyim?",
+        "content": "Vatansız kişi kimlik belgesi ikamet izni yerine geçmekte olup ikamet izni talebi bulunmanız halinde şartlarını taşıdığınız bir ikamet iznine başvuru yapma hakkınız bulunmaktadır."
+      },
+      "52": {
+        "title": "Uzatma başvurusu yapıyorum. Bilgilerimi aynı girmeme rağmen sistem beni randevu almaya yönlendirmektedir.",
+        "content": "02.05.2019 tarihi itibariyle geçerli olmak üzere ikamet izni başvurularında tüm iller için (81 İl) uzatma başvurularında posta usulüne son verilerek randevu sistemine geçilmiştir. Uzatma başvurusu yapan yabancıların başvuru formlarında belirtilen randevu gün ve saatinde başvuru yaptıkları il göç idaresi müdürlüklerinde hazır bulunmaları gerekmektedir."
+      },
+      "53": {
+        "title": "Uzun dönem ikamet izni alırsam hiçbir sınırlama olmadan giriş çıkış yapabilir miyim?",
+        "content": "Uzun dönem ikamet izinleri sağlık, eğitim ve ülkesindeki zorunlu kamu hizmeti dışında bir nedenle kesintisiz bir yıldan fazla süreyle Türkiye dışında bulunması hâlinde iptal edilir."
+      },
+      "54": {
+        "title": "Uzun dönem ikamet iznine başvuru şartları nelerdir?",
+        "content": "Uzun dönem ikamet iznine geçişte aranan şartlar: a) Kesintisiz en az sekiz yıl ikamet izniyle Türkiye’de kalmış olmak b) Son üç yıl içinde sosyal yardım almamış olmak c) Kendisi veya varsa ailesinin geçimini sağlayacak yeterli ve düzenli gelir kaynağına sahip olmak ç) Geçerli sağlık sigortasına sahip olmak d) Kamu düzeni veya kamu güvenliği açısından tehdit oluşturmamak. Göç Kurulunun belirlediği şartlara sahip olması nedeniyle uzun dönem ikamet izni verilmesi uygun görülen yabancılar için birinci fıkranın (d) bendi dışındaki şartlar aranmaz."
+      },
+      "55": {
+        "title": "Vize sürem bitti kaç gün içinde ikamet izne başvuru yapabilirim?",
+        "content": "Vize-vize muafiyet süresi bittikten sonra 10 gün içinde yapılan online başvurular değerlendirmeye alınır."
+      },
+      "56": {
+        "title": "Vize/ikamet ihlali gerçekleştirdim. Para cezası ödeyeceksem tutarı ne kadar olacak?",
+        "content": "İhlal durumunda cezalı harç tutarı istenilmektedir. Harç tutarları ülkelerle yapılan anlaşmalar çerçevesinde belirlendiğinden her ülke açısından farklılık göstermektedir. Ayrıca ihlal edilen süre, uyruk ve yaş durumu açısından da farklılık söz konusudur. Para cezaları ülkemizden çıkış yaptığınız sırada hudut kapılarında öğrenilebilmektedir."
+      },
+      "57": {
+        "title": "Yabancı tutuklu durumdayken vize ya da ikamet izni ihlali yapmış sayılır mı?",
+        "content": "Haklarında işlem tesis edildikten sonra tutuklu veya hükümlü olarak cezaevinde kalanlar vize yahut ikamet izni ihlali yapmış sayılmazlar. İşlem tesis edilmeden önce vize veya ikamet izni ihlali varsa, ihlalde bulunulan süreler için genel hükümlere göre işlem yapılır varsa ikamet izinleri iptal edilir."
+      },
+      "58": {
+        "title": "Yatta ikamet edenler için ayrı bir ikamet izni türü var mı?",
+        "content": "Hayır, öyle bir ikamet türü bulunmamaktadır. Şartlarını taşıdığınız bir ikamet iznine başvuruda bulunabilirsiniz."
+      },
+      "59": {
+        "title": "Yurt dışından arkadaşım açık öğretim okumak için gelecek. Öğrenci ikamet iznine başvuru yapabilir mıyız?",
+        "content": "Özel öğrencilik, açık öğretim veya uzaktan eğitim gerekçesiyle öğrenci ikamet izni verilmez."
+      },
+      "60": {
+        "title": "İkamet izni belgesi geldiğinde adresimde değildim, belgeyi nereden temin edebilirim?",
+        "content": "Eğer adresinde bulunamayıp belge teslim edilemez ise adresine en yakın PTT şubesinde belgenin teslim alındığı tarihi takip eden ayın son gününe kadar şubede bekletildikten sonra bağlı bulunan ilin il göç idaresi müdürlüğüne iade edilmektedir. İkamet izni belgesi; yabancının kendisine, veli, vasi ve vekalete haiz avukatına teslim edilmektedir."
+      }
+    }
+  },
+  "contact": {
+    "phoneNumber": {
+      "title": "İletişim Numarası",
+      "content": "+90 507 911 74 83"
+    },
+    "email": {
+      "title": "Email",
+      "content": "holatercume@gmail.com"
+    },
+    "address": {
+      "title": "Adres",
+      "content": "Pirebi Mahallesi Söylemez Sokak 12/D Meram/KONYA"
+    }
+  },
+  "services": {
+    "mainTitle": "Hizmetler",
+   "1": {
+      "title": "Tercüme Hizmetleri",
+      "content": "Hola Global, çok dilli tercüme hizmetleri sunar. Uzman tercümanlarımız, dil engellerini aşmanıza yardımcı olur ve küresel pazarda iletişiminizi güçlendirir."
+    },
+   "2": {
+      "title": "Yabancı Dil Destek",
+      "content": "Yabancı dilde iletişim ihtiyaçlarınız için Hola Global, profesyonel çeviri ve dil destek hizmetleri sunar. İş toplantılarından resmi yazışmalara kadar her türlü ihtiyacınıza çözüm sunuyoruz."
+    },
+    "3":{
+      "title": "Yabancı İkamet Danışmanlığı",
+      "content": "Hola Global, yabancı ülkelerde ikamet etmek isteyenler için kapsamlı danışmanlık hizmetleri sunar. İkamet izin başvurularınızın yönetimini üstlenir ve sürecin her aşamasında destek sağlar."
+    },
+    "4":{
+      "title": "Vize Başvuru Hizmetleri",
+      "content": "Hola Global, vize başvurularınızın sorunsuz bir şekilde yönetilmesini sağlar. Uzman ekibimiz, vize gereksinimlerinizi anlar ve başvuru sürecinde sizin adınıza işlemleri takip eder."
+    },
+    "5":{
+      "title": "Küresel Hukuk Danışmanlığı",
+      "content": "Hola Global, uluslararası hukuk alanında uzmanlaşmış danışmanlık hizmetleri sunar. Yabancı ülkelerdeki yasal gereklilikleri anlamanıza yardımcı olur ve hukuki süreçlerinizde doğru adımları atmanıza destek sağlar."
+    }
+  },
+  "mainStartItems": {
+    "Button1": "İKAMET İZNİ BAŞVURUSU",
+    "Button2": "YABANCI SAĞLIK SİGORTASI"
+      }
+}
