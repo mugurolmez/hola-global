@@ -5,22 +5,24 @@ services:
       context: ./holaglobal  # Backend klasörü yolu
       dockerfile: Dockerfile
     ports:
-      - "8080:8080"  # Backend uygulamanızın dışarıya açılacak portu
+      - "8080:8080"  # Backend dışa açık portu
     networks:
       - hola-network
     depends_on:
       - db
     env_file:
-      - ./holaglobal/.env  # Backend klasöründeki .env dosyasını belirtin
+      - ./holaglobal/.env  # Backend için .env dosyası
+    restart: unless-stopped  # Servis kesilirse otomatik başlat
 
   frontend:
     build:
       context: ./holaglobal-frontend  # Frontend klasörü yolu
       dockerfile: Dockerfile
     ports:
-      - "3000:3000"  # Frontend uygulamanızın dışarıya açılacak portu
+      - "3000:3000"  # Frontend dışa açık portu
     networks:
       - hola-network
+    restart: unless-stopped  # Servis kesilirse otomatik başlat
 
   db:
     image: postgres
@@ -29,9 +31,15 @@ services:
       POSTGRES_PASSWORD: ${DATASOURCE_PASSWORD}
       POSTGRES_DB: HolaGlobal
     ports:
-      - "5433:5432" 
+      - "5433:5432"  # Dışa açılan PostgreSQL portu
     networks:
       - hola-network
+    volumes:
+      - pgdata:/var/lib/postgresql/data  # Veritabanı verilerini kalıcı tutmak için
 
 networks:
-  hola-network:
+  hola-network:  # Ortak network
+    driver: bridge
+
+volumes:
+  pgdata:  # Veritabanı için kalıcı veri saklama
