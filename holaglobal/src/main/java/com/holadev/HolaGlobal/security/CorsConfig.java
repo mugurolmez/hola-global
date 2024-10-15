@@ -1,6 +1,7 @@
 package com.holadev.HolaGlobal.security;
 
 
+import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -12,7 +13,10 @@ public class CorsConfig {
 
     @Value("${frontend.url}")
     private String frontendUrl;
-
+    @PostConstruct
+    public void printFrontendUrl() {
+        System.out.println("Frontend URL: " + frontendUrl);
+    }
     @Bean
     public WebMvcConfigurer webMvcConfigurer() {
         return new WebMvcConfigurer() {
