@@ -20,8 +20,10 @@ public class JWTUtils {
     private final SecretKey key;
 
     public JWTUtils(@Value("${jwt.secret}") String secretString) {
+
         byte[] keyBytes = Base64.getDecoder().decode(secretString.getBytes(StandardCharsets.UTF_8));
         this.key = new SecretKeySpec(keyBytes, "HmacSHA256");
+
     }
 
     public String generateToken(UserDetails userDetails) {
