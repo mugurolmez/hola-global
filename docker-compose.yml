@@ -1,4 +1,3 @@
-version: '3.8'
 
 services:
   db:
@@ -18,7 +17,8 @@ services:
     build:
       context: ./holaglobal
       dockerfile: Dockerfile
-    image: hola-global_backend:latest
+    image: backend
+    container_name: backend
     ports:
       - "8080:8080"
     environment:
@@ -27,20 +27,22 @@ services:
         DATASOURCE_PASSWORD: ${DATASOURCE_PASSWORD}
         FRONTEND_URL: ${FRONTEND_URL}
         JWT_SECRET: ${JWT_SECRET}
-   
+
 
   frontend:
     build:
       context: ./holaglobal-frontend
       dockerfile: Dockerfile
-    image: hola-global_frontend:latest
+    image: frontend
+    container_name: frontend
     ports:
       - "3000:3000"
     environment:
-      REACT_APP_BACKEND_URL: http://localhost:8080
+      REACT_APP_BACKEND_URL: ${REACT_APP_BACKEND_URL}
     depends_on:
       - backend
- 
+
 
 volumes:
   postgres-data:
+
