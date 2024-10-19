@@ -1,5 +1,5 @@
 # Temel Node.js imajı
-FROM node:18-alpine
+FROM node:18-alpine AS build
 
 # Çalışma dizini oluştur
 WORKDIR /app
@@ -16,8 +16,12 @@ COPY . .
 # React uygulamanızı build edin
 RUN npm run build
 
-# Uygulamanın çalışacağı portu belirtin
-EXPOSE 3000
+# Nginx ile serve etmek için
+FROM nginx:alpine
 
-# Uygulamayı başlatın
-CMD ["npm", "start"]
+# Build klasörünü Nginx'in html dizinine kopyala
+COPY --from=build /app/build /usr/share/nginx/html
+
+# Uygulamanın çalışacağı portu belirtin
+EXPOSE 80
+
