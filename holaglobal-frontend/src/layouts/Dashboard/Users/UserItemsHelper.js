@@ -10,7 +10,7 @@ export const roleOptions = ['ADMIN'];
 export const baseColumns = [
   { field: 'id', headerName: 'ID', editable: false, isIdKey: true ,flex:1},
   { field: 'email', headerName: 'Email',  editable: true ,flex:1},
-  { field: 'name', headerName: 'Soyadı',  editable: true ,flex:1},
+  { field: 'name', headerName: 'Adı',  editable: true ,flex:1},
   { field: 'phoneNumber', headerName: 'Telefon Numarası', editable: true ,flex:1},
   { field: 'password', headerName: 'Parola',  editable: true ,flex:1},
   { field: 'role', headerName: 'Yetki', type: 'singleSelect', valueOptions: roleOptions, editable: true,flex:1 },  

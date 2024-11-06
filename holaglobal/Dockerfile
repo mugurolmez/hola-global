@@ -16,7 +16,6 @@ RUN ./mvnw clean package -DskipTests
 # Yeni bir imaj oluştur, JAR dosyasını sadece çalıştırmak için kullan
 FROM eclipse-temurin:21-jre-alpine
 
-
 # Uygulamanın çalışma dizinini ayarla
 WORKDIR /app
 

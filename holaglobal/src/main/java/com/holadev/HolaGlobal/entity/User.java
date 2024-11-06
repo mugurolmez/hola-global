@@ -1,5 +1,6 @@
 package com.holadev.HolaGlobal.entity;
 
+
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;

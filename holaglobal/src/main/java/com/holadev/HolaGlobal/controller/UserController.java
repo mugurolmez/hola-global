@@ -25,7 +25,6 @@ public class UserController {
 
     @GetMapping("/all")
     @PreAuthorize("hasAnyAuthority('ADMIN', 'MANAGER')")
-
     public DataResult<List<UserDTO>> getAllUser(){
         return  userService.getAllUser();
     }
