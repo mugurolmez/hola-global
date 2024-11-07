@@ -1,6 +1,6 @@
 services:
   db:
-    image: postgres:13
+    image: postgres:17
     container_name: db
     env_file:
       - .env
@@ -9,17 +9,11 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: HolaGlobal
       TZ: Europe/Istanbul
-    restart: always
     ports:
-      - "5433:5432"
+      - "5432:5432"
     volumes:
       - postgres-data:/var/lib/postgresql/data
       - ./pg_hba.conf:/etc/postgresql/pg_hba.conf
-    logging:
-      driver: "json-file"
-      options:
-        max-size: "10m"
-        max-file: "3"
 
   backend:
     depends_on:
@@ -29,9 +23,8 @@ services:
     build:
       context: ./holaglobal
       dockerfile: Dockerfile
-    image: backend:latest
+    image: backend
     container_name: backend
-    restart: always
     ports:
       - "8080:8080"
     environment:
@@ -40,35 +33,23 @@ services:
       DATASOURCE_PASSWORD: ${DATASOURCE_PASSWORD}
       FRONTEND_URL: ${FRONTEND_URL}
       JWT_SECRET: ${JWT_SECRET}
-    logging:
-      driver: "json-file"
-      options:
-        max-size: "10m"
-        max-file: "3"
 
   frontend:
     env_file:
-      - .env
+     - .env
     build:
       context: ./holaglobal-frontend
       dockerfile: Dockerfile
-    image: frontend:latest
+    image: frontend
     container_name: frontend
-    restart: always
     ports:
-      - "3000:80"
+      - "3000:3000"
     environment:
       REACT_APP_BACKEND_URL: ${REACT_APP_BACKEND_URL}
-    volumes:
-      - ./holaglobal-frontend/build:/frontend-build
     depends_on:
       - backend
-    logging:
-      driver: "json-file"
-      options:
-        max-size: "10m"
-        max-file: "3"
 
 
 volumes:
   postgres-data:
+
