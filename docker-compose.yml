@@ -1,6 +1,8 @@
 services:
   db:
-    image: postgres:13
+    image: postgres:latest
+    command: bash -c "apt-get update && apt-get install -y procps && docker-entrypoint.sh postgres"
+    shm_size: 128mb
     container_name: db
     env_file:
       - .env
@@ -9,12 +11,12 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: HolaGlobal
       TZ: Europe/Istanbul
-    restart: always
     ports:
-      - "5433:5432"
+      - "7433:5432"
     volumes:
-      - postgres-data:/var/lib/postgresql/data
+      - postgres_data:/var/lib/postgresql/data
       - ./pg_hba.conf:/etc/postgresql/pg_hba.conf
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
     logging:
       driver: "json-file"
       options:
@@ -31,9 +33,9 @@ services:
       dockerfile: Dockerfile
     image: backend:latest
     container_name: backend
-    restart: always
+    restart: unless-stopped
     ports:
-      - "8080:8080"
+      - "5000:8080"
     environment:
       DATASOURCE_URL: ${DATASOURCE_URL}
       DATASOURCE_USER: ${DATASOURCE_USER}
@@ -54,7 +56,7 @@ services:
       dockerfile: Dockerfile
     image: frontend:latest
     container_name: frontend
-    restart: always
+    restart: unless-stopped
     ports:
       - "3000:80"
     environment:
@@ -69,6 +71,6 @@ services:
         max-size: "10m"
         max-file: "3"
 
-
 volumes:
-  postgres-data:
+  postgres_data:
+
