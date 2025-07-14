@@ -38,21 +38,20 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
     restart: unless-stopped
-
   nginx:
-    image: nginx:alpine
+    build:
+      context: ./holaglobal-frontend
+      dockerfile: Dockerfile  # bu dosya build edip HTML'leri kopyalayan dosya
     container_name: nginx
     ports:
       - "80:80"
       - "443:443"
     volumes:
-      - ./holaglobal-frontend/build:/usr/share/nginx/html:ro
       - /etc/letsencrypt:/etc/letsencrypt:ro
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
     networks:
       - tekno-network
     depends_on:
-      - frontend
       - backend
     restart: unless-stopped
 
