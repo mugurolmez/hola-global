@@ -20,7 +20,7 @@ services:
       - tekno-network
     environment:
       - DATASOURCE_URL=jdbc:postgresql://postgres:5432/HolaGlobal?sslmode=disable
-      - DATASOURCE_USER=postgres
+      - DATASOURCE_USERNAME=postgres
       - DATASOURCE_PASSWORD=12345
       - JWT_SECRET=0h1/gwTV3yq2t7O/lLZ+zEvdIRCIroPnLeIBSiTEeOk=
       - FRONTEND_URL=https://konyaikamet.net
