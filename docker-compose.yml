@@ -19,7 +19,7 @@ services:
     networks:
       - tekno-network
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/tekno_smart_db?sslmode=disable
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/HolaGlobal?sslmode=disable
       - SPRING_DATASOURCE_USERNAME=postgres
       - SPRING_DATASOURCE_PASSWORD=12345
       - JWT_SECRET=0h1/gwTV3yq2t7O/lLZ+zEvdIRCIroPnLeIBSiTEeOk=
@@ -48,8 +48,8 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - ./nginx.conf:/etc/nginx/nginx.conf
-      - /etc/letsencrypt:/etc/letsencrypt
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - /etc/letsencrypt:/etc/letsencrypt:ro
     networks:
       - tekno-network
     depends_on:
