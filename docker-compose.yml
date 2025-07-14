@@ -18,13 +18,8 @@ services:
     container_name: backend
     networks:
       - tekno-network
-    environment:
-      - DATASOURCE_URL=jdbc:postgresql://postgres:5432/HolaGlobal?sslmode=disable
-      - DATASOURCE_USERNAME=postgres
-      - DATASOURCE_PASSWORD=12345
-      - JWT_SECRET=0h1/gwTV3yq2t7O/lLZ+zEvdIRCIroPnLeIBSiTEeOk=
-      - FRONTEND_URL=https://konyaikamet.net
-      - TZ=Europe/Istanbul
+    env_file:
+      - ./holaglobal/.env
     depends_on:
       - postgres
 
