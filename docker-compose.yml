@@ -6,7 +6,7 @@ services:
     networks:
       - tekno-network
     environment:
-      - NEXT_PUBLIC_BACKEND_API_URL=https://teknosmart.online/api
+      - NEXT_PUBLIC_BACKEND_API_URL=https://konyaikamet.net/api
       - TZ=Europe/Istanbul
     volumes:
       - /etc/timezone:/etc/timezone:ro
@@ -23,7 +23,7 @@ services:
       - SPRING_DATASOURCE_USERNAME=postgres
       - SPRING_DATASOURCE_PASSWORD=12345
       - JWT_SECRET=0h1/gwTV3yq2t7O/lLZ+zEvdIRCIroPnLeIBSiTEeOk=
-      - FRONTEND_URL=https://teknosmart.online
+      - FRONTEND_URL=https://konyaikamet.net
       - TZ=Europe/Istanbul
     depends_on:
       - postgres
